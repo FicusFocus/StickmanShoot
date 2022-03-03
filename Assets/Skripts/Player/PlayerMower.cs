@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-
 public class PlayerMower : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     [SerializeField] private Player _player;
     [SerializeField] private float _speed;
 
     public void OnBeginDrag(PointerEventData eventData)
-    {    }
+    {
+    }
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -19,5 +19,10 @@ public class PlayerMower : MonoBehaviour, IBeginDragHandler, IDragHandler
             else
                 _player.transform.position += Vector3.left * _speed * Time.deltaTime;
         }
+    }
+
+    public void SetSpeedValue(float value)
+    {
+        _speed = value;
     }
 }
