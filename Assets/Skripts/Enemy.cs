@@ -8,12 +8,12 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _attackDistance = 1f;
     [SerializeField] private float _speed;
-    [SerializeField] private Player _target;
     [SerializeField] private Animator _animator;
-    [SerializeField] private Material _enemyMaterial;
-    [SerializeField] private Color _duyingColor;
-    [SerializeField] private Color _normalColor;
+    [SerializeField] private Material _liveEnemy;
+    [SerializeField] private Material _deadEnemy;
+    [SerializeField] private SkinnedMeshRenderer _materialConteiner;
 
+    private Player _target;
     private bool _stopChasing = false;
     private NavMeshAgent _meshAgent;
     private string _attacktarget = "CanAttack";
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        _enemyMaterial.color = _normalColor;
+        _materialConteiner.material = _liveEnemy;
         _meshAgent = GetComponent<NavMeshAgent>();
         _meshAgent.speed = _speed;
     }
@@ -57,8 +57,8 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        _materialConteiner.material = _deadEnemy;
         _stopChasing = true;
-        _enemyMaterial.color = _duyingColor;
         _animator.SetBool(_dyuing, true);
         Destroy(gameObject, _dyuingClipLanth);
     }
@@ -66,5 +66,10 @@ public class Enemy : MonoBehaviour
     public void TakeDamage()
     {
         Die();
+    }
+
+    public void Init(Player target)
+    {
+        _target = target;
     }
 }

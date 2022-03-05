@@ -1,14 +1,20 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    [SerializeField] private PlayerMower _mower;
     [SerializeField] private Chamber _bag;
     [SerializeField] private float _speed;
-    [SerializeField] private PlayerMower _mower;
 
+    private Animator _animator;
     private bool _alreadyAttacked;
     private string _wasAttacked = "Fall";
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -19,8 +25,6 @@ public class Player : MonoBehaviour
     {
         transform.Translate(Vector3.back * _speed * Time.deltaTime);
     }
-
-    
 
     public void Fall()
     {

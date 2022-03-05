@@ -5,9 +5,9 @@ using TMPro;
 public class Chamber : MonoBehaviour
 {
     [SerializeField] private List<AmmoPackPlace> _packPlaces;
+    [SerializeField] private TMP_Text _ammoCounter;
     [SerializeField] private Gun _gun;
     [SerializeField] private int _baseBulletsCount;
-    [SerializeField] private TMP_Text _ammoCounter;
 
     private int _currentBulletsCount;
     private int _maxBulletsCount => _packPlaces.Count;
@@ -25,14 +25,14 @@ public class Chamber : MonoBehaviour
     private void Start()
     {
         _currentBulletsCount = _baseBulletsCount;
-        _ammoCounter.text = _currentBulletsCount.ToString();
+        SetAmmoCounerValue(_currentBulletsCount);
         SetAvtivePackPlace();
 
         if (_currentBulletsCount > 0)
             _gun.CanShoot(true);
     }
 
-    private void SetAvtivePackPlace()
+    private void SetAvtivePackPlace() //TODO хуета какаято непонятная, переделать
     {
         for (int i = 0; i < _currentBulletsCount / 2; i++)
             _packPlaces[i].gameObject.SetActive(true);
@@ -44,11 +44,16 @@ public class Chamber : MonoBehaviour
     private void OnGunShooted()
     {
         _currentBulletsCount--;
-        _ammoCounter.text = _currentBulletsCount.ToString();
+        SetAmmoCounerValue(_currentBulletsCount);
         SetAvtivePackPlace();
 
         if (_currentBulletsCount <= 0)
             _gun.CanShoot(false);
+    }
+
+    private void SetAmmoCounerValue(int value)
+    {
+        _ammoCounter.text = value.ToString();
     }
 
     public void TakeAmmo(int value)
@@ -59,6 +64,9 @@ public class Chamber : MonoBehaviour
                 _currentBulletsCount += value;
             else
                 _currentBulletsCount = _maxBulletsCount;
+
+            SetAmmoCounerValue(_currentBulletsCount);
+            _gun.CanShoot(true);
         }
     }
 }

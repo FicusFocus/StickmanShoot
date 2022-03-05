@@ -4,24 +4,26 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class AmmoPack : MonoBehaviour
 {
-    [SerializeField] private int _ammoInPack;
     [SerializeField] private TMP_Text _ammoCoutText;
-    [SerializeField] private float _rotateCpeed;
     [SerializeField] private Transform _pack;
+    [SerializeField] private float _rotateCpeed;
+    [SerializeField] private int _ammoInPack;
+
+    private Collider _collider;
 
     private void Start()
     {
+        _collider = GetComponent<Collider>();
+        _collider.isTrigger = true;
         _ammoCoutText.text = _ammoInPack.ToString();
-    }
-
-    private void Update()
-    {
-     //   _pack.rotation.y
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Chamber chamber))
+        {
             chamber.TakeAmmo(_ammoInPack);
+            Destroy(gameObject);
+        }
     }
 }
