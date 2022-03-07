@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6960746542601455514}
   - component: {fileID: 6392881898069891148}
   - component: {fileID: 7507824128788387768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_magazine_magazine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 932157073846497379}
   - component: {fileID: 8545422996078094726}
   - component: {fileID: 997166056458439926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_bolt1_bolt2_bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6160917656150195065}
   - component: {fileID: 6797667167995599336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullets (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2743597209849208803}
   m_LocalRotation: {x: 0.0035921484, y: -0.11837866, z: 0.30178353, w: 0.9459917}
-  m_LocalPosition: {x: 0.023019925, y: 0.8391925, z: 0.007362947}
+  m_LocalPosition: {x: 0.023019925, y: 1.343, z: 0.007362947}
   m_LocalScale: {x: 0.1, y: 0.14, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1871714560305609268}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 6996809159186148192}
   - component: {fileID: 59463717350894988}
   - component: {fileID: 4718900380774268078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_chamber_chamber1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 3883225417850790843}
   - component: {fileID: 7800567088903180614}
   - component: {fileID: 880501812545549224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_butt_butt1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 2068845975697046871}
   - component: {fileID: 1241680842817562679}
   - component: {fileID: 3209129291102822855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_rail_rail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 5225903303471099366}
   - component: {fileID: 3129031420569317433}
   - component: {fileID: 1304636764540110334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_barrel_barrel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787286449747697725}
   - component: {fileID: 3641223908437055540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullets (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4250189194546457396}
   m_LocalRotation: {x: 0.0035921484, y: -0.11837866, z: 0.30178353, w: 0.9459917}
-  m_LocalPosition: {x: 0.189, y: 0.959, z: 0.054885082}
+  m_LocalPosition: {x: 0.189, y: 1.4628075, z: 0.054885082}
   m_LocalScale: {x: 0.1, y: 0.14, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1871714560305609268}
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 1871714560305609268}
   - component: {fileID: 6815736038607349171}
   - component: {fileID: 2638999414774351341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GunLevelUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 2535631378216489156}
   - component: {fileID: 8469158115468901394}
   - component: {fileID: 392496278255578489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_stock_magazine_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4859590946174852070}
   - component: {fileID: 2040028886825577652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5204873209459278172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 5225903303471099366}
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 1181912439801514737}
   - component: {fileID: 9163517207103631124}
   - component: {fileID: 1345825761944813456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_trigger_guard1_trigger_guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 8674813211237770690}
   - component: {fileID: 3809404168217347843}
   - component: {fileID: 8936402261836671893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_stock_stock1_stock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 1438464367634779577}
   - component: {fileID: 1326700934281946507}
   - component: {fileID: 5670903763437110402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_bolt1_bolt_handle_bolt3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,7 +1108,7 @@ GameObject:
   - component: {fileID: 8615866640615363274}
   - component: {fileID: 8497829674264871948}
   - component: {fileID: 346456135498603008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rifle_trigger_trigger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

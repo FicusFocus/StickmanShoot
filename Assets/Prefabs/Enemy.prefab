@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackDistance: 1
-  _speed: 8
+  _speed: 7
   _animator: {fileID: 9030479629172030830}
   _liveEnemy: {fileID: 2100000, guid: f1929574fa7debd49a09888142c0e8b7, type: 2}
   _deadEnemy: {fileID: 2100000, guid: cb7f172404f58a940b53f6e38e09028c, type: 2}

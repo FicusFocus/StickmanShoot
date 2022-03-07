@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8006676105438531341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Start Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760343052134423392}
   m_RootOrder: 2
@@ -41,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3760343052134423392}
   - component: {fileID: 3760343052145178114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SawTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,10 +54,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3760343052134125312}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -2.35, y: -0.08, z: -0.5606834}
   m_LocalScale: {x: 0.49999988, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3760343052134423418}
   - {fileID: 3760343052134423416}
@@ -66,7 +64,7 @@ Transform:
   - {fileID: 5612923765393767593}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!111 &3760343052145178114
 Animation:
   m_ObjectHideFlags: 0
@@ -95,7 +93,7 @@ GameObject:
   - component: {fileID: 3760343052135258906}
   - component: {fileID: 3760343052136323418}
   - component: {fileID: 5591503109440058878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SawBlade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +110,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.86}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760343052134423392}
   m_RootOrder: 1
@@ -136,7 +133,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -145,7 +141,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bf6b0d31cf73b8479090d219f8b9da1, type: 2}
+  - {fileID: 2100000, guid: d12234645cbb7ab4db80793713d69700, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -193,7 +189,7 @@ GameObject:
   - component: {fileID: 3760343052134423418}
   - component: {fileID: 3760343052135258884}
   - component: {fileID: 3760343052136323396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SawBladeFrameBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +206,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.32}
   m_LocalScale: {x: 1, y: 1, z: 2.71167}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760343052134423392}
   m_RootOrder: 0
@@ -234,7 +229,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -274,7 +268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5612923765393767593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: End Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +285,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760343052134423392}
   m_RootOrder: 3
