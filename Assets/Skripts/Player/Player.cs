@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
             if (pack.TryGetComponent(out AmmoPack ammo))
                 _chamber.TakeAmmo(ammo.AmmoInPack);
             else
-                _chamber.ÑhangeAmmoType(pack);
+                _chamber.ChangeAmmoType(pack);
         }
     }
 

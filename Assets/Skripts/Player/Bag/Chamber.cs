@@ -67,7 +67,7 @@ public class Chamber : MonoBehaviour
         }
     }
 
-    public void ÑhangeAmmoType(Pack pickedPack)
+    public void ChangeAmmoType(Pack pickedPack)
     {
         if (pickedPack.TryGetComponent(out WhizzbangPack whizzbangPack))
             _gun.SetAmmoType(_granads);
