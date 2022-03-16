@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(NavMeshAgent), typeof(Collider))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _attackDistance = 1f;
@@ -13,9 +13,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Material _deadEnemy;
     [SerializeField] private SkinnedMeshRenderer _materialConteiner;
 
+    private NavMeshAgent _meshAgent;
     private Player _target;
     private bool _stopChasing = false;
-    private NavMeshAgent _meshAgent;
     private string _attacktarget = "CanAttack";
     private string _dyuing = "Dyuing";
     private float _dyuingClipLanth = 4.6f;

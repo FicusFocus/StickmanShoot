@@ -3,11 +3,12 @@ using UnityEngine.Events;
 
 public class Gun : MonoBehaviour
 {
-    [SerializeField] private Bullet _bullet;
     [SerializeField] private Transform _shootPoint;
+    [SerializeField] private ShootEffectController _shootEffect;
     [SerializeField] private float _baseFireRate;
     [SerializeField] private int _maxGunLevel;
 
+    private Ammo _currentAmmo;
     private int _gunLevel = 1;
     private float _currentFireRate;
     private float _timeAfterLastShoot;
@@ -15,10 +16,7 @@ public class Gun : MonoBehaviour
 
     public event UnityAction Shoted;
 
-    private void Start()
-    {
-        _currentFireRate = _baseFireRate;
-    }
+    private void Start() => _currentFireRate = _baseFireRate;
 
     private void Update()
     {
@@ -33,7 +31,8 @@ public class Gun : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(_bullet, _shootPoint.position, Quaternion.identity);
+        Instantiate(_currentAmmo, _shootPoint.position, Quaternion.identity);
+        _shootEffect.PlayShootEffects();
         Shoted?.Invoke();
     }
 
@@ -49,5 +48,10 @@ public class Gun : MonoBehaviour
 
         _currentFireRate = _currentFireRate - ((float)_currentFireRate * valueInPersent);
         _gunLevel++;
+    }
+
+    public void SetAmmoType(Ammo ammoType)
+    {
+        _currentAmmo = ammoType;
     }
 }

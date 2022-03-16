@@ -7,32 +7,29 @@ public class Chamber : MonoBehaviour
     [SerializeField] private List<AmmoPackPlace> _packPlaces;
     [SerializeField] private TMP_Text _ammoCounter;
     [SerializeField] private Gun _gun;
+    [SerializeField] private Ammo _granads;
+    [SerializeField] private Ammo _bullets;
+    [SerializeField] private Ammo _startAmmoType;
     [SerializeField] private int _baseBulletsCount;
 
     private int _currentBulletsCount;
     private int _maxBulletsCount => _packPlaces.Count;
 
-    private void OnEnable()
-    {
-        _gun.Shoted += OnGunShooted;
-    }
-
-    private void OnDisable()
-    {
-        _gun.Shoted -= OnGunShooted;
-    }
+    private void OnEnable() => _gun.Shoted += OnGunShooted;
+    private void OnDisable() => _gun.Shoted -= OnGunShooted;
 
     private void Start()
     {
         _currentBulletsCount = _baseBulletsCount;
         SetAmmoCounerValue(_currentBulletsCount);
         SetAvtivePackPlace();
+        _gun.SetAmmoType(_startAmmoType);
 
         if (_currentBulletsCount > 0)
             _gun.CanShoot(true);
     }
 
-    private void SetAvtivePackPlace() //TODO хуета какаято непонятная, переделать
+    private void SetAvtivePackPlace()
     {
         for (int i = 0; i < _currentBulletsCount / 2; i++)
             _packPlaces[i].gameObject.SetActive(true);
@@ -68,5 +65,13 @@ public class Chamber : MonoBehaviour
             SetAmmoCounerValue(_currentBulletsCount);
             _gun.CanShoot(true);
         }
+    }
+
+    public void СhangeAmmoType(Pack pickedPack)
+    {
+        if (pickedPack.TryGetComponent(out WhizzbangPack whizzbangPack))
+            _gun.SetAmmoType(_granads);
+        else if (pickedPack.TryGetComponent(out BulletsPack bulletsPack))
+            _gun.SetAmmoType(_bullets);
     }
 }

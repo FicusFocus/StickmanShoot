@@ -3,9 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-    [SerializeField] private PlayerMower _mower;
-    [SerializeField] private Chamber _bag;
-    [SerializeField] private float _speed;
+    [SerializeField] private PlayerMover _mover;
+    [SerializeField] private Chamber _chamber;
+    [SerializeField] private float _backwardSpeed;
+    [SerializeField] private float _sideSpeed;
 
     private Animator _animator;
     private bool _alreadyAttacked;
@@ -14,6 +15,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        _mover.SetSideSpeedValue(_sideSpeed);
+        _mover.SetTargetToMove(this);
     }
 
     private void Update()
@@ -23,7 +26,19 @@ public class Player : MonoBehaviour
 
     private void MoveBack()
     {
-        transform.Translate(Vector3.back * _speed * Time.deltaTime);
+        transform.Translate(Vector3.back * _backwardSpeed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Pack pack))
+        {
+            pack.Destroyed();
+            if (pack.TryGetComponent(out AmmoPack ammo))
+                _chamber.TakeAmmo(ammo.AmmoInPack);
+            else
+                _chamber.ÑhangeAmmoType(pack);
+        }
     }
 
     public void Fall()
@@ -31,8 +46,8 @@ public class Player : MonoBehaviour
         if (_alreadyAttacked == false)
         {
             _animator.SetBool(_wasAttacked, true);
-            _mower.SetSpeedValue(0);
-            _speed = 0;
+            _mover.SetSideSpeedValue(0);
+            _backwardSpeed = 0;
             _alreadyAttacked = true;
         }
     }
