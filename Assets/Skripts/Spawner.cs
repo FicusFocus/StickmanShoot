@@ -1,8 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private Enemy _tamplate;
+    [SerializeField] private List<Enemy> _tamplates;
     [SerializeField] private Transform _tamplatesContainer;
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private Player _target;
@@ -30,7 +31,8 @@ public class Spawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        var newEnemy = Instantiate(_tamplate, _enemySpwanPosition, Quaternion.identity, _tamplatesContainer);
+        Enemy randomEnemy = _tamplates[Random.Range(0, _tamplates.Count)];
+        var newEnemy = Instantiate(randomEnemy, _enemySpwanPosition, Quaternion.identity, _tamplatesContainer);
         newEnemy.Init(_target);
     }
 }
