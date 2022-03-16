@@ -17,7 +17,7 @@ public class Whizzbang : Ammo
         }
 
         _bangEffect.Play();
-        Destroy(gameObject);
+        Destroy(gameObject, _bangEffect.main.duration);
     }
 
     protected override void OnTriggerEnter(Collider other)
