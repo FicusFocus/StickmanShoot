@@ -46,7 +46,7 @@ public class Gun : MonoBehaviour
         if (_gunLevel >= _maxGunLevel || valueInPersent > 1 || valueInPersent <= 0)
             return;
 
-        _currentFireRate = _currentFireRate - ((float)_currentFireRate * valueInPersent);
+        _currentFireRate -= (float)_currentFireRate * valueInPersent;
         _gunLevel++;
     }
 

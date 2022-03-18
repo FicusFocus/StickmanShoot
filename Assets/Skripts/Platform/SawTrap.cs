@@ -38,7 +38,7 @@ public class SawTrap : MonoBehaviour
     {
         if (other.TryGetComponent(out Player player))
         {
-            player.Die();
+            player.Fall();
         }
     }
 }

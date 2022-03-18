@@ -5583,8 +5583,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7851568339334759524}
   - component: {fileID: 6834586652833202567}
-  - component: {fileID: 8279626663183975758}
   - component: {fileID: 9137199599283091450}
+  - component: {fileID: 8369092833281652826}
   m_Layer: 0
   m_Name: BulletsPack
   m_TagString: Untagged
@@ -5628,21 +5628,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8279626663183975758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8620427450773169758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6be45b0d86215b640aed2ad11428115f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _collider: {fileID: 9137199599283091450}
-  _animator: {fileID: 6834586652833202567}
-  _destroyClip: {fileID: 7400000, guid: 184b6518f5e24024296843a113ca8327, type: 2}
 --- !u!135 &9137199599283091450
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5656,3 +5641,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.4008777
   m_Center: {x: 0.003618002, y: 0, z: 0}
+--- !u!114 &8369092833281652826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620427450773169758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9392bb25c1ae147b21d2c79a393212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 9137199599283091450}
+  _animator: {fileID: 6834586652833202567}
+  _destroyClip: {fileID: 7400000, guid: 184b6518f5e24024296843a113ca8327, type: 2}

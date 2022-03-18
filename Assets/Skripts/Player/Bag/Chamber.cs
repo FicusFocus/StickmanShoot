@@ -4,13 +4,13 @@ using TMPro;
 
 public class Chamber : MonoBehaviour
 {
+    [Range(1, 180), SerializeField] private int _baseBulletsCount;
     [SerializeField] private List<AmmoPackPlace> _packPlaces;
-    [SerializeField] private TMP_Text _ammoCounter;
     [SerializeField] private Gun _gun;
+    [SerializeField] private Ammo _startAmmoType;
     [SerializeField] private Ammo _granads;
     [SerializeField] private Ammo _bullets;
-    [SerializeField] private Ammo _startAmmoType;
-    [SerializeField] private int _baseBulletsCount;
+    [SerializeField] private TMP_Text _ammoCounter;
 
     private int _currentBulletsCount;
     private int _maxBulletsCount => _packPlaces.Count;

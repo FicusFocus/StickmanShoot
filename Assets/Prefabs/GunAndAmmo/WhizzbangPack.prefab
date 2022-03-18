@@ -91,8 +91,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2064879155946621613}
   - component: {fileID: 3353184123122470734}
-  - component: {fileID: 2102043122077779056}
   - component: {fileID: 2292523943806644367}
+  - component: {fileID: 3732473738282216907}
   m_Layer: 0
   m_Name: WhizzbangPack
   m_TagString: Untagged
@@ -136,21 +136,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2102043122077779056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572056655237376151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 534d48fdc8a07844286e4f89e65c0aa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _collider: {fileID: 2292523943806644367}
-  _animator: {fileID: 3353184123122470734}
-  _destroyClip: {fileID: 7400000, guid: b865d787a9ea11b48be3928a35216e96, type: 2}
 --- !u!135 &2292523943806644367
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -164,6 +149,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.4081137
   m_Center: {x: -0.003618002, y: 0, z: -0}
+--- !u!114 &3732473738282216907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572056655237376151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4294eb078694c2c4a9485fc10a9715b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 2292523943806644367}
+  _animator: {fileID: 3353184123122470734}
+  _destroyClip: {fileID: 7400000, guid: b865d787a9ea11b48be3928a35216e96, type: 2}
 --- !u!1 &4385768530343338833
 GameObject:
   m_ObjectHideFlags: 0

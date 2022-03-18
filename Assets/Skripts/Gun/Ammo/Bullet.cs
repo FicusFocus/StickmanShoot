@@ -10,9 +10,7 @@ public class Bullet : Ammo
             enemy.TakeDamage();
             Destroy(gameObject);
         }
-        else if (other.TryGetComponent(out DisactiveZone disactiveZone))
-        {
-            Destroy(gameObject);
-        }
+        
+        Destroy(gameObject);
     }
 }

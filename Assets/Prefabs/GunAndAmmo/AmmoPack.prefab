@@ -989,9 +989,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638046526768023654}
-  - component: {fileID: 7937229661443368185}
   - component: {fileID: 5687688058746067099}
   - component: {fileID: 1893439227}
+  - component: {fileID: 5173867740713727572}
   m_Layer: 6
   m_Name: AmmoPack
   m_TagString: Untagged
@@ -1015,23 +1015,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7937229661443368185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6479335664965614667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 715af675a99fa6741acb908e30f6bcdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _collider: {fileID: 5687688058746067099}
-  _animator: {fileID: 1893439227}
-  _destroyClip: {fileID: 7400000, guid: 6eebf93016e641046aa72c61b4102df7, type: 2}
-  _ammoCoutText: {fileID: 3438620799684113242}
-  _ammoInPack: 50
 --- !u!65 &5687688058746067099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1064,6 +1047,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5173867740713727572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479335664965614667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b79d0a26f458a488fca5f2808c102f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 5687688058746067099}
+  _animator: {fileID: 1893439227}
+  _destroyClip: {fileID: 7400000, guid: 6eebf93016e641046aa72c61b4102df7, type: 2}
+  _ammoCoutText: {fileID: 3438620799684113242}
+  _ammoInPack: 50
 --- !u!1 &6663669741603642748
 GameObject:
   m_ObjectHideFlags: 0

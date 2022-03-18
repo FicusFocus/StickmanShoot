@@ -6,6 +6,11 @@ public class Whizzbang : Ammo
     [SerializeField] private ParticleSystem _bangEffect;
     [SerializeField] private float _affectedArea;
 
+    protected override void OnTriggerEnter(Collider other)
+    {
+        Bang();
+    }
+
     private void Bang()
     {
         Collider[] hitList = Physics.OverlapSphere(transform.position, _affectedArea);
@@ -18,10 +23,5 @@ public class Whizzbang : Ammo
 
         _bangEffect.Play();
         Destroy(gameObject, _bangEffect.main.duration);
-    }
-
-    protected override void OnTriggerEnter(Collider other)
-    {
-        Bang();
     }
 }

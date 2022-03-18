@@ -8,5 +8,8 @@ public class AmmoPack : Pack
 
     public int AmmoInPack => _ammoInPack;
 
-    private void Start() => _ammoCoutText.text = _ammoInPack.ToString();
+    private void Start() 
+    {
+        _ammoCoutText.text = _ammoInPack.ToString();
+    }
 }

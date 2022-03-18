@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Spawner : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Spawner : MonoBehaviour
     private Vector3 _enemySpwanPosition => _spawnPoint.position;
     private float _timeAfterLastSpawn = 0;
     private int _alreadySpawned = 0;
+
+    public event UnityAction<Enemy> EnemySpawned;
 
     private void Update()
     {
@@ -34,5 +37,6 @@ public class Spawner : MonoBehaviour
         Enemy randomEnemy = _tamplates[Random.Range(0, _tamplates.Count)];
         var newEnemy = Instantiate(randomEnemy, _enemySpwanPosition, Quaternion.identity, _tamplatesContainer);
         newEnemy.Init(_target);
+        EnemySpawned?.Invoke(newEnemy);
     }
 }

@@ -1,20 +1,22 @@
 using UnityEngine;
+using UnityEngine.Events;
 
-[RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
+    [SerializeField] private Animator _animator;
     [SerializeField] private PlayerMover _mover;
     [SerializeField] private Chamber _chamber;
+    [SerializeField] private Gun _gun;
     [SerializeField] private float _backwardSpeed;
     [SerializeField] private float _sideSpeed;
 
-    private Animator _animator;
     private bool _alreadyAttacked;
-    private string _wasAttacked = "Fall";
+    private string _fall = "Fall";
+
+    public event UnityAction Died;
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
         _mover.SetSideSpeedValue(_sideSpeed);
         _mover.SetTargetToMove(this);
     }
@@ -24,16 +26,12 @@ public class Player : MonoBehaviour
         MoveBack();
     }
 
-    private void MoveBack()
-    {
-        transform.Translate(Vector3.back * _backwardSpeed * Time.deltaTime);
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Pack pack))
         {
             pack.Destroyed();
+
             if (pack.TryGetComponent(out AmmoPack ammo))
                 _chamber.TakeAmmo(ammo.AmmoInPack);
             else
@@ -41,19 +39,21 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void MoveBack()
+    {
+        transform.Translate(Vector3.back * _backwardSpeed * Time.deltaTime);
+    }
+
     public void Fall()
     {
         if (_alreadyAttacked == false)
         {
-            _animator.SetBool(_wasAttacked, true);
+            _animator.SetTrigger(_fall);
             _mover.SetSideSpeedValue(0);
             _backwardSpeed = 0;
             _alreadyAttacked = true;
+            _gun.CanShoot(false);
+            Died?.Invoke();
         }
-    }
-
-    public void Die()
-    {
-        //TODO: доделать смерть.
     }
 }

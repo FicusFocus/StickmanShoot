@@ -282,7 +282,6 @@ GameObject:
   - component: {fileID: 6522234035687919892}
   - component: {fileID: 4181467005749525653}
   - component: {fileID: 1907625936633864516}
-  - component: {fileID: 3139991632236445683}
   - component: {fileID: 2193584755942180669}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -354,19 +353,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3139991632236445683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24113826631006833}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2193584755942180669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,7 +376,6 @@ GameObject:
   - component: {fileID: 8635932550135747382}
   - component: {fileID: 2776610228627019925}
   - component: {fileID: 367165540750939691}
-  - component: {fileID: 5499187023566332761}
   - component: {fileID: 3813926740531852199}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -462,19 +447,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5499187023566332761
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41292733911425182}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3813926740531852199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,7 +470,6 @@ GameObject:
   - component: {fileID: 962519792262090668}
   - component: {fileID: 3135462600826345425}
   - component: {fileID: 5852805746274852789}
-  - component: {fileID: 2780115660059629354}
   - component: {fileID: 7281746799565925133}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -570,19 +541,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2780115660059629354
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210915859185367652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7281746799565925133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,7 +564,6 @@ GameObject:
   - component: {fileID: 5615152903992711597}
   - component: {fileID: 7414047681096952677}
   - component: {fileID: 1036366953081518672}
-  - component: {fileID: 5049366399395865816}
   - component: {fileID: 5871118777440199982}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -678,19 +635,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5049366399395865816
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222812568843164495}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5871118777440199982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +658,6 @@ GameObject:
   - component: {fileID: 2526296221125184276}
   - component: {fileID: 5918115060370824886}
   - component: {fileID: 7149292429275957324}
-  - component: {fileID: 2479735466693828561}
   - component: {fileID: 2727631973663201266}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -786,19 +729,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2479735466693828561
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233356366030408226}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2727631973663201266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,7 +752,6 @@ GameObject:
   - component: {fileID: 8060197981232662932}
   - component: {fileID: 5200385956080728302}
   - component: {fileID: 6119615765800742973}
-  - component: {fileID: 4111125355459981629}
   - component: {fileID: 1939905884777421415}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -894,19 +823,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4111125355459981629
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362527637346802003}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1939905884777421415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,7 +846,6 @@ GameObject:
   - component: {fileID: 6390228478834689637}
   - component: {fileID: 7479706412712490186}
   - component: {fileID: 4919283379760110888}
-  - component: {fileID: 3305606810171586740}
   - component: {fileID: 1011209994854729624}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1002,19 +917,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3305606810171586740
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425030565152952931}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1011209994854729624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1038,7 +940,6 @@ GameObject:
   - component: {fileID: 2247021458067437695}
   - component: {fileID: 8471051489404337034}
   - component: {fileID: 6090507235866117920}
-  - component: {fileID: 7782219115397425299}
   - component: {fileID: 5429994250286841676}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1110,19 +1011,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7782219115397425299
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513988744114289136}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5429994250286841676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1034,6 @@ GameObject:
   - component: {fileID: 2878771577810068920}
   - component: {fileID: 7389191337656117948}
   - component: {fileID: 483589420394613391}
-  - component: {fileID: 4035407776818306888}
   - component: {fileID: 2588010408479528257}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1218,19 +1105,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4035407776818306888
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522596427140662735}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2588010408479528257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,7 +1128,6 @@ GameObject:
   - component: {fileID: 8622959286534722882}
   - component: {fileID: 3056695967141819428}
   - component: {fileID: 6588564154349495002}
-  - component: {fileID: 4126579495817623400}
   - component: {fileID: 4076129997954936345}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1326,19 +1199,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4126579495817623400
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578717699398697120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4076129997954936345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1362,7 +1222,6 @@ GameObject:
   - component: {fileID: 3925493855279446753}
   - component: {fileID: 8254936078302476899}
   - component: {fileID: 677216287925348511}
-  - component: {fileID: 4361077562417203326}
   - component: {fileID: 5164467771044371113}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1434,19 +1293,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4361077562417203326
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617063360424289615}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5164467771044371113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,7 +1316,6 @@ GameObject:
   - component: {fileID: 75630876939053268}
   - component: {fileID: 949369636847273671}
   - component: {fileID: 8662092264106294943}
-  - component: {fileID: 6252278729358872193}
   - component: {fileID: 806179268596353593}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1542,19 +1387,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6252278729358872193
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633025638631913003}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &806179268596353593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1578,7 +1410,6 @@ GameObject:
   - component: {fileID: 3084804704686859751}
   - component: {fileID: 5322729948284715109}
   - component: {fileID: 840648775434679892}
-  - component: {fileID: 4671684949979743202}
   - component: {fileID: 6301563186552720403}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1650,19 +1481,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4671684949979743202
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668237179765900879}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6301563186552720403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1686,7 +1504,6 @@ GameObject:
   - component: {fileID: 1794884536336140975}
   - component: {fileID: 6042348883866275469}
   - component: {fileID: 1317845996894920743}
-  - component: {fileID: 4010854294111616356}
   - component: {fileID: 4261586302157073394}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -1758,19 +1575,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4010854294111616356
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673133026313207232}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4261586302157073394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1964,7 +1768,6 @@ GameObject:
   - component: {fileID: 6970557463821300160}
   - component: {fileID: 3609042334376289000}
   - component: {fileID: 3228842076272138410}
-  - component: {fileID: 9018135712796846280}
   - component: {fileID: 4911726302329661803}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2036,19 +1839,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9018135712796846280
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737111047412914187}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4911726302329661803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2072,7 +1862,6 @@ GameObject:
   - component: {fileID: 186449492150780460}
   - component: {fileID: 8909035273093672636}
   - component: {fileID: 5277426653562365693}
-  - component: {fileID: 8359407021740547543}
   - component: {fileID: 3808160374342774808}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2144,19 +1933,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8359407021740547543
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812509610175890821}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3808160374342774808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,7 +1956,6 @@ GameObject:
   - component: {fileID: 1973853517859694098}
   - component: {fileID: 7167770208669313375}
   - component: {fileID: 57845190759299545}
-  - component: {fileID: 6104108171729202066}
   - component: {fileID: 7085315708861023866}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2252,19 +2027,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6104108171729202066
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953795898299041250}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7085315708861023866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,7 +2050,6 @@ GameObject:
   - component: {fileID: 4353001619699382457}
   - component: {fileID: 1310905465159911973}
   - component: {fileID: 4888073989669036502}
-  - component: {fileID: 2776863179078465551}
   - component: {fileID: 4469552104760810994}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2360,19 +2121,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2776863179078465551
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972190276357248991}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4469552104760810994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,7 +2144,6 @@ GameObject:
   - component: {fileID: 4129029180196869755}
   - component: {fileID: 6808217782752814465}
   - component: {fileID: 3275801850262527798}
-  - component: {fileID: 4917924741207165397}
   - component: {fileID: 1967823639593757919}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2468,19 +2215,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4917924741207165397
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976269881180553719}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1967823639593757919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,7 +2238,6 @@ GameObject:
   - component: {fileID: 3003787234019407195}
   - component: {fileID: 7474585186659549577}
   - component: {fileID: 6558133714336265035}
-  - component: {fileID: 6917360753962538379}
   - component: {fileID: 8734129976459932790}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2576,19 +2309,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6917360753962538379
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017296471655200115}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8734129976459932790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2612,7 +2332,6 @@ GameObject:
   - component: {fileID: 2744985710832567114}
   - component: {fileID: 2493106800248865925}
   - component: {fileID: 1738777598026078686}
-  - component: {fileID: 4137324409567216869}
   - component: {fileID: 4006571146531659646}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2684,19 +2403,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4137324409567216869
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026377704016252436}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4006571146531659646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2720,7 +2426,6 @@ GameObject:
   - component: {fileID: 5573736568010622897}
   - component: {fileID: 2335131174083382074}
   - component: {fileID: 5038092967556836511}
-  - component: {fileID: 935938516536259105}
   - component: {fileID: 6645469781148320495}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2792,19 +2497,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &935938516536259105
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080864991335723834}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6645469781148320495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,7 +2520,6 @@ GameObject:
   - component: {fileID: 6478910324507080514}
   - component: {fileID: 5350142082403553738}
   - component: {fileID: 4269773056159893301}
-  - component: {fileID: 6761960425316438879}
   - component: {fileID: 104616501555628883}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -2900,19 +2591,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6761960425316438879
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1096699090616029042}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &104616501555628883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2936,7 +2614,6 @@ GameObject:
   - component: {fileID: 1927360509894935572}
   - component: {fileID: 4157088093694436862}
   - component: {fileID: 8365389558673078281}
-  - component: {fileID: 7096122906344006091}
   - component: {fileID: 8098165761617157971}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3008,19 +2685,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7096122906344006091
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145201881909120807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8098165761617157971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,7 +2708,6 @@ GameObject:
   - component: {fileID: 2304187725494719259}
   - component: {fileID: 2407928627555073703}
   - component: {fileID: 8514285149612470702}
-  - component: {fileID: 6297426002948535064}
   - component: {fileID: 7798948971442024314}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3116,19 +2779,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6297426002948535064
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184760986274580241}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7798948971442024314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3152,7 +2802,6 @@ GameObject:
   - component: {fileID: 5623890801171026112}
   - component: {fileID: 6009407373448873698}
   - component: {fileID: 1386264990827951837}
-  - component: {fileID: 7522723079238234288}
   - component: {fileID: 7666193635880104753}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3224,19 +2873,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7522723079238234288
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1191793257325740831}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7666193635880104753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3260,7 +2896,6 @@ GameObject:
   - component: {fileID: 1246358889822730924}
   - component: {fileID: 2606835541042230809}
   - component: {fileID: 2669511043144651249}
-  - component: {fileID: 2649732902518655798}
   - component: {fileID: 4985708344272102157}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3332,19 +2967,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2649732902518655798
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204650873445038200}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4985708344272102157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3368,7 +2990,6 @@ GameObject:
   - component: {fileID: 393559633709519139}
   - component: {fileID: 4087855972428381176}
   - component: {fileID: 1003367770605374588}
-  - component: {fileID: 3858745224877435812}
   - component: {fileID: 3063357956601441715}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3440,19 +3061,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3858745224877435812
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233862104448928007}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3063357956601441715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,7 +3084,6 @@ GameObject:
   - component: {fileID: 656688048181180083}
   - component: {fileID: 4275685113853087184}
   - component: {fileID: 9182214218422064798}
-  - component: {fileID: 3282687732551362165}
   - component: {fileID: 4504813506171114284}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3548,19 +3155,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3282687732551362165
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246169353041668813}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4504813506171114284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,7 +3178,6 @@ GameObject:
   - component: {fileID: 6191353768587317814}
   - component: {fileID: 1346681899786028529}
   - component: {fileID: 3689400030674511989}
-  - component: {fileID: 5155155534833029608}
   - component: {fileID: 1881435070636515803}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3656,19 +3249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5155155534833029608
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247658921477632536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1881435070636515803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,7 +3272,6 @@ GameObject:
   - component: {fileID: 9205484288203837253}
   - component: {fileID: 2842427326920586492}
   - component: {fileID: 7841792547451592830}
-  - component: {fileID: 921871607192707366}
   - component: {fileID: 6501250708978312634}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -3764,19 +3343,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &921871607192707366
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326402264156073741}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6501250708978312634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18471,7 +18037,6 @@ GameObject:
   - component: {fileID: 6503993029699914605}
   - component: {fileID: 1373138123525770518}
   - component: {fileID: 7807932680217550242}
-  - component: {fileID: 7712055640522554805}
   - component: {fileID: 3517771367055210912}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -18543,19 +18108,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7712055640522554805
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372915791571946317}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3517771367055210912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18579,7 +18131,6 @@ GameObject:
   - component: {fileID: 2907009212927371317}
   - component: {fileID: 2214916984854545923}
   - component: {fileID: 3447057236658302660}
-  - component: {fileID: 7388934219522624074}
   - component: {fileID: 2582649298850308202}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -18651,19 +18202,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7388934219522624074
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420125165824067010}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2582649298850308202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18687,7 +18225,6 @@ GameObject:
   - component: {fileID: 7379881318012452501}
   - component: {fileID: 2680850470158125234}
   - component: {fileID: 3727106112116154231}
-  - component: {fileID: 808285682609103111}
   - component: {fileID: 4563474696171605137}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -18759,19 +18296,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &808285682609103111
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431378957276113401}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4563474696171605137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18795,7 +18319,6 @@ GameObject:
   - component: {fileID: 1393691442397126871}
   - component: {fileID: 6065345441735840959}
   - component: {fileID: 494247142122578108}
-  - component: {fileID: 1049479649176873903}
   - component: {fileID: 5645099263652046649}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -18867,19 +18390,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1049479649176873903
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570320483843353781}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5645099263652046649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18903,7 +18413,6 @@ GameObject:
   - component: {fileID: 8918527423625984716}
   - component: {fileID: 8374307230522649024}
   - component: {fileID: 9194885479173834373}
-  - component: {fileID: 4058353967115768333}
   - component: {fileID: 2598815605848132573}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -18975,19 +18484,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4058353967115768333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599860178730064578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2598815605848132573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19011,7 +18507,6 @@ GameObject:
   - component: {fileID: 8181272908120905296}
   - component: {fileID: 9097663396601984042}
   - component: {fileID: 6665295795963694783}
-  - component: {fileID: 2613007083025321247}
   - component: {fileID: 2308367573305929051}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19083,19 +18578,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2613007083025321247
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607344290115573762}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2308367573305929051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19119,7 +18601,6 @@ GameObject:
   - component: {fileID: 5313497167585505421}
   - component: {fileID: 1520677341508031022}
   - component: {fileID: 1558307062286998565}
-  - component: {fileID: 1404301667886311310}
   - component: {fileID: 2571090747924042061}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19191,19 +18672,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1404301667886311310
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712164362150155277}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2571090747924042061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19227,7 +18695,6 @@ GameObject:
   - component: {fileID: 3967233260133856876}
   - component: {fileID: 8147058425241130018}
   - component: {fileID: 5484874039909885912}
-  - component: {fileID: 7071922524041913523}
   - component: {fileID: 413660399223586963}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19299,19 +18766,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7071922524041913523
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734534108667807801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &413660399223586963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19335,7 +18789,6 @@ GameObject:
   - component: {fileID: 8783515832382980690}
   - component: {fileID: 2269268196298735133}
   - component: {fileID: 1712768908735761671}
-  - component: {fileID: 2048426646313252456}
   - component: {fileID: 4167853220308303139}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19407,19 +18860,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2048426646313252456
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763577336884897145}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4167853220308303139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19443,7 +18883,6 @@ GameObject:
   - component: {fileID: 6108113410352671566}
   - component: {fileID: 4055655042877341327}
   - component: {fileID: 7317326987262446916}
-  - component: {fileID: 4123625465840145389}
   - component: {fileID: 7012733911546928981}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19515,19 +18954,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4123625465840145389
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792121420586604198}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7012733911546928981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19551,7 +18977,6 @@ GameObject:
   - component: {fileID: 8396457533799934011}
   - component: {fileID: 3104967728371282578}
   - component: {fileID: 9039035820578466133}
-  - component: {fileID: 1073439781761791783}
   - component: {fileID: 6131862854639639816}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19623,19 +19048,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1073439781761791783
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821256238189788145}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6131862854639639816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19659,7 +19071,6 @@ GameObject:
   - component: {fileID: 1016736494832903649}
   - component: {fileID: 2558532279148395598}
   - component: {fileID: 3644049912746614856}
-  - component: {fileID: 2269172337248405338}
   - component: {fileID: 4783901245281531136}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19731,19 +19142,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2269172337248405338
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862177019334202957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4783901245281531136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19767,7 +19165,6 @@ GameObject:
   - component: {fileID: 1092827633699864966}
   - component: {fileID: 299205548849265550}
   - component: {fileID: 6776315211566436862}
-  - component: {fileID: 8936704962667461077}
   - component: {fileID: 6842369333696372336}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19839,19 +19236,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8936704962667461077
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920968931413562779}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6842369333696372336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19875,7 +19259,6 @@ GameObject:
   - component: {fileID: 8145087702888016093}
   - component: {fileID: 8109589032594672566}
   - component: {fileID: 203822134138782625}
-  - component: {fileID: 501486332427366522}
   - component: {fileID: 620721257806995518}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -19947,19 +19330,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &501486332427366522
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000188806231010568}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &620721257806995518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19983,7 +19353,6 @@ GameObject:
   - component: {fileID: 2721353938928056452}
   - component: {fileID: 5446056758122771891}
   - component: {fileID: 6539900961199806466}
-  - component: {fileID: 6003037650881502535}
   - component: {fileID: 3539955861699980840}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20055,19 +19424,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6003037650881502535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2039103156884700970}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3539955861699980840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20091,7 +19447,6 @@ GameObject:
   - component: {fileID: 5978117725889505884}
   - component: {fileID: 2893057971216235414}
   - component: {fileID: 8518468878319039519}
-  - component: {fileID: 8932245185474627912}
   - component: {fileID: 2166959430319488013}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20163,19 +19518,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8932245185474627912
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132472006261495959}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2166959430319488013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20199,7 +19541,6 @@ GameObject:
   - component: {fileID: 4055554384674304641}
   - component: {fileID: 5970385578764364550}
   - component: {fileID: 5991228437005295706}
-  - component: {fileID: 5308153313230720568}
   - component: {fileID: 8306036868994412292}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20271,19 +19612,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5308153313230720568
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2384166236227663181}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8306036868994412292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20307,7 +19635,6 @@ GameObject:
   - component: {fileID: 187906129523947716}
   - component: {fileID: 2569587872283792097}
   - component: {fileID: 7275574609706630732}
-  - component: {fileID: 4556793164571427233}
   - component: {fileID: 2813195142538717264}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20379,19 +19706,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4556793164571427233
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2387729297053869070}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2813195142538717264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20415,7 +19729,6 @@ GameObject:
   - component: {fileID: 4839354545942334559}
   - component: {fileID: 3136490185111664898}
   - component: {fileID: 1730411048969216645}
-  - component: {fileID: 4811510417633793544}
   - component: {fileID: 8727044748237609433}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20487,19 +19800,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4811510417633793544
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2393919528146158610}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8727044748237609433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20523,7 +19823,6 @@ GameObject:
   - component: {fileID: 7738679600284580160}
   - component: {fileID: 4939012177060180857}
   - component: {fileID: 8224769813650877356}
-  - component: {fileID: 988043833648303509}
   - component: {fileID: 4234982605392865323}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20595,19 +19894,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &988043833648303509
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2415919904845740963}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4234982605392865323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20631,7 +19917,6 @@ GameObject:
   - component: {fileID: 1340499009532190365}
   - component: {fileID: 6296767468470195555}
   - component: {fileID: 6807342157129297348}
-  - component: {fileID: 5151984148673175048}
   - component: {fileID: 8409399052675377469}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20703,19 +19988,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5151984148673175048
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2425285770093113142}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8409399052675377469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20739,7 +20011,6 @@ GameObject:
   - component: {fileID: 2064102861756804369}
   - component: {fileID: 2839336294435425734}
   - component: {fileID: 5689913229743752197}
-  - component: {fileID: 44019194696499793}
   - component: {fileID: 1453870491870469422}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20811,19 +20082,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &44019194696499793
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2466697769411203379}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1453870491870469422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20847,7 +20105,6 @@ GameObject:
   - component: {fileID: 6033354212777389343}
   - component: {fileID: 2586042327238174481}
   - component: {fileID: 1487654362663741788}
-  - component: {fileID: 8341936294916914394}
   - component: {fileID: 6972638284055619550}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -20919,19 +20176,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8341936294916914394
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2483780769271567060}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6972638284055619550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20955,7 +20199,6 @@ GameObject:
   - component: {fileID: 6151180079125752577}
   - component: {fileID: 795396311453227342}
   - component: {fileID: 1854890327763641145}
-  - component: {fileID: 3342087634452569940}
   - component: {fileID: 7325460229468243427}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21027,19 +20270,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3342087634452569940
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2532345184008613610}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7325460229468243427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21063,7 +20293,6 @@ GameObject:
   - component: {fileID: 884953457642521}
   - component: {fileID: 9100870587331433674}
   - component: {fileID: 3534235836377382520}
-  - component: {fileID: 225959475739776728}
   - component: {fileID: 3792318949231046165}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21135,19 +20364,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &225959475739776728
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2653265078654816319}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3792318949231046165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21171,7 +20387,6 @@ GameObject:
   - component: {fileID: 6440811142895080692}
   - component: {fileID: 3640451607731037051}
   - component: {fileID: 5709410687985311714}
-  - component: {fileID: 5181789083991514890}
   - component: {fileID: 4665541598461996850}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21243,19 +20458,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5181789083991514890
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2676078555701717803}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4665541598461996850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21279,7 +20481,6 @@ GameObject:
   - component: {fileID: 8650761737011647262}
   - component: {fileID: 1914384265428936930}
   - component: {fileID: 3245485710872541331}
-  - component: {fileID: 1745980814238280081}
   - component: {fileID: 938732648471518010}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21351,19 +20552,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1745980814238280081
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2678970492625379279}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &938732648471518010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21387,7 +20575,6 @@ GameObject:
   - component: {fileID: 1981897028893973101}
   - component: {fileID: 1829144401605252277}
   - component: {fileID: 5721792691377044560}
-  - component: {fileID: 2699133677279240480}
   - component: {fileID: 1383545782756028229}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21459,19 +20646,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2699133677279240480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2691776580459497123}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1383545782756028229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21495,7 +20669,6 @@ GameObject:
   - component: {fileID: 8985111436138568178}
   - component: {fileID: 4515834461793090937}
   - component: {fileID: 3448642155886267524}
-  - component: {fileID: 467125552232069813}
   - component: {fileID: 3571739956819904971}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21567,19 +20740,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &467125552232069813
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2701078633911466955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3571739956819904971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21603,7 +20763,6 @@ GameObject:
   - component: {fileID: 8799871632544342768}
   - component: {fileID: 8919692655871939053}
   - component: {fileID: 4833294220035405260}
-  - component: {fileID: 845338978828447985}
   - component: {fileID: 8254215160233953020}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21675,19 +20834,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &845338978828447985
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2811182988522652521}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8254215160233953020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21711,7 +20857,6 @@ GameObject:
   - component: {fileID: 1442512631943786562}
   - component: {fileID: 2274730686875287377}
   - component: {fileID: 4970597404232414013}
-  - component: {fileID: 7852376536003448610}
   - component: {fileID: 837118526924577032}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -21783,19 +20928,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7852376536003448610
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2843316926553178848}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &837118526924577032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22913,7 +22045,6 @@ GameObject:
   - component: {fileID: 7149297236559784009}
   - component: {fileID: 5314595435171964810}
   - component: {fileID: 3929036060566915651}
-  - component: {fileID: 3145924309912902069}
   - component: {fileID: 4042750409845844680}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -22985,19 +22116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3145924309912902069
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2915075485268834995}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4042750409845844680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23021,7 +22139,6 @@ GameObject:
   - component: {fileID: 5199207478662564302}
   - component: {fileID: 285760618378940060}
   - component: {fileID: 5174022307406172718}
-  - component: {fileID: 2803334017792698881}
   - component: {fileID: 1452110273630284561}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23093,19 +22210,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2803334017792698881
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2968638229581810501}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1452110273630284561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23129,7 +22233,6 @@ GameObject:
   - component: {fileID: 5573551868999704965}
   - component: {fileID: 5593011604447324155}
   - component: {fileID: 6285591841812645393}
-  - component: {fileID: 8756235411783893698}
   - component: {fileID: 7595917403183835920}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23201,19 +22304,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8756235411783893698
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3066941134690177195}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7595917403183835920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23237,7 +22327,6 @@ GameObject:
   - component: {fileID: 2445088017734158020}
   - component: {fileID: 5539610958553264110}
   - component: {fileID: 5063072140887451299}
-  - component: {fileID: 2619428004773223006}
   - component: {fileID: 1501504506125249}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23309,19 +22398,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2619428004773223006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3072136755219551088}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1501504506125249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23345,7 +22421,6 @@ GameObject:
   - component: {fileID: 3039925485324834925}
   - component: {fileID: 6342684462928401154}
   - component: {fileID: 3073222953298563127}
-  - component: {fileID: 4282649420539897369}
   - component: {fileID: 4094067050210575055}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23417,19 +22492,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4282649420539897369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3072401515961662288}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4094067050210575055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23453,7 +22515,6 @@ GameObject:
   - component: {fileID: 1937038313143582351}
   - component: {fileID: 8196292889364917414}
   - component: {fileID: 1594814752547534108}
-  - component: {fileID: 5851401121675365901}
   - component: {fileID: 4773089606117988546}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23525,19 +22586,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5851401121675365901
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151463087716654698}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4773089606117988546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23561,7 +22609,6 @@ GameObject:
   - component: {fileID: 9170455259519479007}
   - component: {fileID: 7506846985588732089}
   - component: {fileID: 2892148679907888041}
-  - component: {fileID: 3045218414677837898}
   - component: {fileID: 4762656221721639071}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23633,19 +22680,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3045218414677837898
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3165458932706283643}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4762656221721639071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23669,7 +22703,6 @@ GameObject:
   - component: {fileID: 5797734515973389830}
   - component: {fileID: 3760712769135384565}
   - component: {fileID: 6852746198248972535}
-  - component: {fileID: 1435024287589777355}
   - component: {fileID: 6863901918118226221}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -23741,19 +22774,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1435024287589777355
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3166364567120139449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6863901918118226221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23775,7 +22795,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2058150150707187981}
-  - component: {fileID: 3205979449224502111}
   - component: {fileID: 1279282069005006939}
   m_Layer: 3
   m_Name: Bag
@@ -23977,19 +22996,6 @@ Transform:
   m_Father: {fileID: 7793766192075827733}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3205979449224502111
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3182344694367975913}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.5437279, y: 15.059961, z: 1.7105496}
-  m_Center: {x: 0.083305985, y: 2.8850462, z: 0.7976425}
 --- !u!114 &1279282069005006939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24002,6 +23008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f91da153e61ab04dac6bc43bcc1e19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _baseBulletsCount: 10
   _packPlaces:
   - {fileID: 6174282890727120784}
   - {fileID: 331150258352120602}
@@ -24182,12 +23189,11 @@ MonoBehaviour:
   - {fileID: 9118134799034463188}
   - {fileID: 5011438326585891369}
   - {fileID: 2424431660495835759}
-  _ammoCounter: {fileID: 3559850400577596112}
   _gun: {fileID: 8335602472320859533}
+  _startAmmoType: {fileID: 7912962665100463096, guid: a35f4b150e88a224bbd9897dd7a855c9, type: 3}
   _granads: {fileID: 2095352917296703632, guid: 80174d1fc7e071d46a919219aa011c0c, type: 3}
   _bullets: {fileID: 7912962665100463096, guid: a35f4b150e88a224bbd9897dd7a855c9, type: 3}
-  _startAmmoType: {fileID: 7912962665100463096, guid: a35f4b150e88a224bbd9897dd7a855c9, type: 3}
-  _baseBulletsCount: 10
+  _ammoCounter: {fileID: 3559850400577596112}
 --- !u!1 &3238163963745037750
 GameObject:
   m_ObjectHideFlags: 0
@@ -24199,7 +23205,6 @@ GameObject:
   - component: {fileID: 4569922422975837011}
   - component: {fileID: 2227063321107350524}
   - component: {fileID: 6948985934412868886}
-  - component: {fileID: 511477595315763477}
   - component: {fileID: 8337089936578491841}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24271,19 +23276,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &511477595315763477
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3238163963745037750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8337089936578491841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24307,7 +23299,6 @@ GameObject:
   - component: {fileID: 6437971683412503960}
   - component: {fileID: 3297485805865651185}
   - component: {fileID: 390120290141793998}
-  - component: {fileID: 8379790260142764012}
   - component: {fileID: 4528288561436679166}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24379,19 +23370,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8379790260142764012
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3254969127407075503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4528288561436679166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24415,7 +23393,6 @@ GameObject:
   - component: {fileID: 1474456445209259844}
   - component: {fileID: 4532912739989812799}
   - component: {fileID: 5092802326635004581}
-  - component: {fileID: 5326571592374681896}
   - component: {fileID: 9118134799034463188}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24487,19 +23464,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5326571592374681896
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3258309229198052464}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9118134799034463188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24523,7 +23487,6 @@ GameObject:
   - component: {fileID: 5914106140768342618}
   - component: {fileID: 2203054462772686759}
   - component: {fileID: 6466631818679171279}
-  - component: {fileID: 1518866542561957504}
   - component: {fileID: 2757894125359745140}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24595,19 +23558,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1518866542561957504
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3322126934938253102}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2757894125359745140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24631,7 +23581,6 @@ GameObject:
   - component: {fileID: 1405779213052087244}
   - component: {fileID: 1409909617523747829}
   - component: {fileID: 4345541927316479093}
-  - component: {fileID: 7873348193441692009}
   - component: {fileID: 62843494141361357}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24703,19 +23652,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7873348193441692009
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3334893396092807147}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &62843494141361357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24739,7 +23675,6 @@ GameObject:
   - component: {fileID: 8801547584242973509}
   - component: {fileID: 6040681565524569585}
   - component: {fileID: 5991132304235215844}
-  - component: {fileID: 7570766803611669693}
   - component: {fileID: 2593691916210453262}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24811,19 +23746,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7570766803611669693
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3484222955821742800}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2593691916210453262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24847,7 +23769,6 @@ GameObject:
   - component: {fileID: 4448865916902710247}
   - component: {fileID: 3899379148606523318}
   - component: {fileID: 6121094202390469861}
-  - component: {fileID: 6875532104392625193}
   - component: {fileID: 7775889154356415445}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -24919,19 +23840,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6875532104392625193
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3489740970765545094}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7775889154356415445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24955,7 +23863,6 @@ GameObject:
   - component: {fileID: 7214585023178896449}
   - component: {fileID: 7528702977727642274}
   - component: {fileID: 3510270235819989509}
-  - component: {fileID: 6160683615147045308}
   - component: {fileID: 8158381584467649923}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25027,19 +23934,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6160683615147045308
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3499185714776457341}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8158381584467649923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25063,7 +23957,6 @@ GameObject:
   - component: {fileID: 1976337225771578206}
   - component: {fileID: 3410626944584351157}
   - component: {fileID: 3796065677742679127}
-  - component: {fileID: 1252776549225244910}
   - component: {fileID: 7095022017471554670}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25135,19 +24028,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1252776549225244910
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3528751657223054979}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7095022017471554670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25171,7 +24051,6 @@ GameObject:
   - component: {fileID: 1217087342405777331}
   - component: {fileID: 4481247140011658991}
   - component: {fileID: 8394181838501374779}
-  - component: {fileID: 6725789522806810268}
   - component: {fileID: 1444632574740063509}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25243,19 +24122,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6725789522806810268
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3570226054139032373}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1444632574740063509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25279,7 +24145,6 @@ GameObject:
   - component: {fileID: 8000278564683766696}
   - component: {fileID: 2266039180520363021}
   - component: {fileID: 2901182039652136842}
-  - component: {fileID: 3312734500943262516}
   - component: {fileID: 3105556711966870702}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25351,19 +24216,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3312734500943262516
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3576378436272598597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3105556711966870702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25387,7 +24239,6 @@ GameObject:
   - component: {fileID: 8532739573645872682}
   - component: {fileID: 4988718392662800499}
   - component: {fileID: 8816864887675977561}
-  - component: {fileID: 5784968925518672076}
   - component: {fileID: 3308057302559130040}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25459,19 +24310,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5784968925518672076
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3579388433982571076}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3308057302559130040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25495,7 +24333,6 @@ GameObject:
   - component: {fileID: 1577954005917740584}
   - component: {fileID: 5707119003416270996}
   - component: {fileID: 6658487515711837780}
-  - component: {fileID: 6526144069158985738}
   - component: {fileID: 4747224108260046345}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25567,19 +24404,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6526144069158985738
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3604252385232360664}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4747224108260046345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25603,7 +24427,6 @@ GameObject:
   - component: {fileID: 1740074075947202678}
   - component: {fileID: 3003509608290762197}
   - component: {fileID: 7410592932860433126}
-  - component: {fileID: 4015475515128781955}
   m_Layer: 3
   m_Name: Ammo Counter
   m_TagString: Untagged
@@ -25675,19 +24498,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &4015475515128781955
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3629929727571226165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3675441401299830126
 GameObject:
   m_ObjectHideFlags: 0
@@ -25699,7 +24509,6 @@ GameObject:
   - component: {fileID: 4898934240766574919}
   - component: {fileID: 4867422469500921112}
   - component: {fileID: 2672321836626012817}
-  - component: {fileID: 7079667196567936315}
   - component: {fileID: 3531294129385050526}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25771,19 +24580,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7079667196567936315
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3675441401299830126}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3531294129385050526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25807,7 +24603,6 @@ GameObject:
   - component: {fileID: 5466130232352022089}
   - component: {fileID: 2244951437465538073}
   - component: {fileID: 4552482924756587875}
-  - component: {fileID: 4214121565435449964}
   - component: {fileID: 5956573115631100901}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25879,19 +24674,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4214121565435449964
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3799932254161247449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5956573115631100901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25915,7 +24697,6 @@ GameObject:
   - component: {fileID: 2645811526250731891}
   - component: {fileID: 4104002196862257517}
   - component: {fileID: 1708073853825895194}
-  - component: {fileID: 5890906664706322834}
   - component: {fileID: 5164598982952181917}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -25987,19 +24768,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5890906664706322834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3852049212698276352}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5164598982952181917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26023,7 +24791,6 @@ GameObject:
   - component: {fileID: 8720493615628181263}
   - component: {fileID: 196828903904017207}
   - component: {fileID: 3510737737310791776}
-  - component: {fileID: 5450166166120061120}
   - component: {fileID: 1087505562684347878}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26095,19 +24862,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5450166166120061120
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3929009420625149156}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1087505562684347878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26131,7 +24885,6 @@ GameObject:
   - component: {fileID: 4537780516734243961}
   - component: {fileID: 7638106357094291185}
   - component: {fileID: 2176442658105166195}
-  - component: {fileID: 2034928716726139914}
   - component: {fileID: 4006791541266454630}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26203,19 +24956,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2034928716726139914
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3955438674179391915}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4006791541266454630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26239,7 +24979,6 @@ GameObject:
   - component: {fileID: 4766719627647829065}
   - component: {fileID: 6070864128331620498}
   - component: {fileID: 8961446947563504074}
-  - component: {fileID: 813487919702044088}
   - component: {fileID: 7316060443097597214}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26311,19 +25050,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &813487919702044088
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3971290015230046906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7316060443097597214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26347,7 +25073,6 @@ GameObject:
   - component: {fileID: 5014251199606337143}
   - component: {fileID: 1711245882290096428}
   - component: {fileID: 5599467336558980407}
-  - component: {fileID: 8997076973661337160}
   - component: {fileID: 2329408948067389872}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26419,19 +25144,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8997076973661337160
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4094347343536524224}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2329408948067389872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26455,7 +25167,6 @@ GameObject:
   - component: {fileID: 1710388717268475362}
   - component: {fileID: 1469370445623739375}
   - component: {fileID: 7870192085213932232}
-  - component: {fileID: 6274436851372434724}
   - component: {fileID: 8687753593622035737}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26527,19 +25238,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6274436851372434724
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4124070821753627634}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8687753593622035737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26563,7 +25261,6 @@ GameObject:
   - component: {fileID: 7116019829295236030}
   - component: {fileID: 5793732722680376850}
   - component: {fileID: 1239480130972745655}
-  - component: {fileID: 6597085511950606348}
   - component: {fileID: 8190724331201437863}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26635,19 +25332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6597085511950606348
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4142821974155752259}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8190724331201437863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26671,7 +25355,6 @@ GameObject:
   - component: {fileID: 6472807344975129294}
   - component: {fileID: 2258363121277453660}
   - component: {fileID: 6343264504611603169}
-  - component: {fileID: 6683581078104463477}
   - component: {fileID: 999209627051631114}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26743,19 +25426,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6683581078104463477
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4150294703715179414}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &999209627051631114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26779,7 +25449,6 @@ GameObject:
   - component: {fileID: 3887078607101601055}
   - component: {fileID: 7532601587740026378}
   - component: {fileID: 3993461452097166503}
-  - component: {fileID: 7869680639674264194}
   - component: {fileID: 5011438326585891369}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26851,19 +25520,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7869680639674264194
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155397809432920342}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5011438326585891369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26887,7 +25543,6 @@ GameObject:
   - component: {fileID: 4042622578873649665}
   - component: {fileID: 7418897066288189871}
   - component: {fileID: 5694095948630284603}
-  - component: {fileID: 8079361956040972705}
   - component: {fileID: 6796494668587058150}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -26959,19 +25614,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8079361956040972705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4199991498303139621}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6796494668587058150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26995,7 +25637,6 @@ GameObject:
   - component: {fileID: 3248925918624832497}
   - component: {fileID: 1757464224535938023}
   - component: {fileID: 136447000078052556}
-  - component: {fileID: 6635846329737973834}
   - component: {fileID: 239024253695132768}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27067,19 +25708,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6635846329737973834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4228430002755337030}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &239024253695132768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27103,7 +25731,6 @@ GameObject:
   - component: {fileID: 7414008161579027664}
   - component: {fileID: 8822721497024149276}
   - component: {fileID: 1585681635601973847}
-  - component: {fileID: 2789698512788371609}
   - component: {fileID: 6309012194825045392}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27175,19 +25802,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2789698512788371609
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4247472213061143987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6309012194825045392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27211,7 +25825,6 @@ GameObject:
   - component: {fileID: 5324659759992594717}
   - component: {fileID: 2756836962692445687}
   - component: {fileID: 1627898962968861373}
-  - component: {fileID: 7858420426692852581}
   - component: {fileID: 2290673867026486255}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27283,19 +25896,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7858420426692852581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4379263279312823981}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2290673867026486255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27319,7 +25919,6 @@ GameObject:
   - component: {fileID: 65971897054709791}
   - component: {fileID: 7738258690002900956}
   - component: {fileID: 6810284470731512923}
-  - component: {fileID: 4382994045250414765}
   - component: {fileID: 7416037898752097007}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27391,19 +25990,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4382994045250414765
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4468285758349274570}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7416037898752097007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27427,7 +26013,6 @@ GameObject:
   - component: {fileID: 5112732711417412637}
   - component: {fileID: 5674345277196027058}
   - component: {fileID: 5955940090044931241}
-  - component: {fileID: 1062297423021000273}
   - component: {fileID: 3408549429146701681}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27499,19 +26084,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1062297423021000273
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4670555309063134711}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3408549429146701681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27535,7 +26107,6 @@ GameObject:
   - component: {fileID: 6034211257256336568}
   - component: {fileID: 2796984828974024457}
   - component: {fileID: 4088951820198929207}
-  - component: {fileID: 811443374633697821}
   - component: {fileID: 575323914666486059}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27607,19 +26178,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &811443374633697821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4734385011115574740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &575323914666486059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27643,7 +26201,6 @@ GameObject:
   - component: {fileID: 4317154892028303228}
   - component: {fileID: 1653310721788402033}
   - component: {fileID: 8428575891005729993}
-  - component: {fileID: 5931640525735424459}
   - component: {fileID: 3567880700385701194}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27715,19 +26272,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5931640525735424459
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4864680585922938992}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3567880700385701194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27751,7 +26295,6 @@ GameObject:
   - component: {fileID: 579292641906457737}
   - component: {fileID: 2524239504963712288}
   - component: {fileID: 8498408643497747233}
-  - component: {fileID: 7161461088482869267}
   - component: {fileID: 7605263472472201362}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27823,19 +26366,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7161461088482869267
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974642046994624548}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7605263472472201362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27859,7 +26389,6 @@ GameObject:
   - component: {fileID: 1142046092418061406}
   - component: {fileID: 5627060611373190412}
   - component: {fileID: 4865962039262917627}
-  - component: {fileID: 7818333510359185878}
   - component: {fileID: 9076527030049569680}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -27931,19 +26460,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7818333510359185878
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5010699392512940973}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9076527030049569680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27967,7 +26483,6 @@ GameObject:
   - component: {fileID: 7255153690047342872}
   - component: {fileID: 4080045912362377981}
   - component: {fileID: 8523710856725332005}
-  - component: {fileID: 6232516561484377074}
   - component: {fileID: 4324433703558972935}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28039,19 +26554,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6232516561484377074
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111885021647590254}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4324433703558972935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28075,7 +26577,6 @@ GameObject:
   - component: {fileID: 1775462525384688076}
   - component: {fileID: 6726414265184773554}
   - component: {fileID: 6736776857341177945}
-  - component: {fileID: 5591735096864563589}
   - component: {fileID: 957775260769434638}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28147,19 +26648,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5591735096864563589
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5157011685573263722}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &957775260769434638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28183,7 +26671,6 @@ GameObject:
   - component: {fileID: 7631579370854395808}
   - component: {fileID: 1255708104929789372}
   - component: {fileID: 6963960964252160642}
-  - component: {fileID: 6279195982617331335}
   - component: {fileID: 412215146263528074}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28255,19 +26742,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6279195982617331335
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5159598647196482667}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &412215146263528074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28291,7 +26765,6 @@ GameObject:
   - component: {fileID: 1032458416046210356}
   - component: {fileID: 6873158210691339205}
   - component: {fileID: 1121632931415112110}
-  - component: {fileID: 1164386611527310735}
   - component: {fileID: 7193050343029622009}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28363,19 +26836,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1164386611527310735
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5161876400336521546}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7193050343029622009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28399,7 +26859,6 @@ GameObject:
   - component: {fileID: 540381604982342924}
   - component: {fileID: 6119174283084497876}
   - component: {fileID: 928446502962212121}
-  - component: {fileID: 7710904540051335108}
   - component: {fileID: 8103266184397197549}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28471,19 +26930,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7710904540051335108
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165465071126389333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8103266184397197549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28507,7 +26953,6 @@ GameObject:
   - component: {fileID: 2968749247219097808}
   - component: {fileID: 3449540997398947306}
   - component: {fileID: 969119936121853292}
-  - component: {fileID: 6276306132218017552}
   - component: {fileID: 8201683101402769070}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28579,19 +27024,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6276306132218017552
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5178965768729975752}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8201683101402769070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28615,7 +27047,6 @@ GameObject:
   - component: {fileID: 6495913399600651900}
   - component: {fileID: 6943637879765661826}
   - component: {fileID: 3628394736476408704}
-  - component: {fileID: 7694019460226479325}
   - component: {fileID: 3975103058230354395}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28687,19 +27118,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7694019460226479325
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5222867244543869300}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3975103058230354395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28723,7 +27141,6 @@ GameObject:
   - component: {fileID: 4186791160721496784}
   - component: {fileID: 7216059135788413603}
   - component: {fileID: 6003813871136464391}
-  - component: {fileID: 4503219890240073639}
   - component: {fileID: 1908372241779226219}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28795,19 +27212,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4503219890240073639
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358346219469779672}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1908372241779226219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28831,7 +27235,6 @@ GameObject:
   - component: {fileID: 1095272010953465892}
   - component: {fileID: 6038347205615120119}
   - component: {fileID: 7713640101975296392}
-  - component: {fileID: 7795498925179775324}
   - component: {fileID: 5986492180416505672}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -28903,19 +27306,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7795498925179775324
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5438708372643005439}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5986492180416505672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28939,7 +27329,6 @@ GameObject:
   - component: {fileID: 5492244038299884820}
   - component: {fileID: 3621238324190392785}
   - component: {fileID: 6243795072801028852}
-  - component: {fileID: 2238736243138548810}
   - component: {fileID: 1371075757715650221}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29011,19 +27400,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2238736243138548810
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5457935061269060427}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1371075757715650221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29047,7 +27423,6 @@ GameObject:
   - component: {fileID: 1305891335890793032}
   - component: {fileID: 4206778228767353983}
   - component: {fileID: 6871009354908665483}
-  - component: {fileID: 1599707595316342456}
   - component: {fileID: 7600891081903648208}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29119,19 +27494,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1599707595316342456
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5586174040432517835}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7600891081903648208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29155,7 +27517,6 @@ GameObject:
   - component: {fileID: 6399647593186789719}
   - component: {fileID: 3107928382567766592}
   - component: {fileID: 7397950327784910483}
-  - component: {fileID: 3332524607619945124}
   - component: {fileID: 5949357933805604722}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29227,19 +27588,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3332524607619945124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5617155923168571760}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5949357933805604722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29263,7 +27611,6 @@ GameObject:
   - component: {fileID: 2385474390664492864}
   - component: {fileID: 1101904996445885038}
   - component: {fileID: 7443527092000157933}
-  - component: {fileID: 4305415616749890634}
   - component: {fileID: 1359288643935569412}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29335,19 +27682,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4305415616749890634
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5702012550499794339}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1359288643935569412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29371,7 +27705,6 @@ GameObject:
   - component: {fileID: 5893400279697752979}
   - component: {fileID: 2335285791321054657}
   - component: {fileID: 8494698962397671559}
-  - component: {fileID: 7731549756128950391}
   - component: {fileID: 5008108671463449586}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29443,19 +27776,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7731549756128950391
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5815203667525332503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5008108671463449586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29479,7 +27799,6 @@ GameObject:
   - component: {fileID: 6529622597315723427}
   - component: {fileID: 6623602994978461123}
   - component: {fileID: 1569139804921918805}
-  - component: {fileID: 5096803241747719954}
   - component: {fileID: 1695622616483451343}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29551,19 +27870,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5096803241747719954
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5869764488540039872}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1695622616483451343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29587,7 +27893,6 @@ GameObject:
   - component: {fileID: 5876890434354684855}
   - component: {fileID: 6088863894794457162}
   - component: {fileID: 1765785408820759365}
-  - component: {fileID: 7019901365113405950}
   - component: {fileID: 1172036114942622820}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29659,19 +27964,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7019901365113405950
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5913406955359969000}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1172036114942622820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29695,7 +27987,6 @@ GameObject:
   - component: {fileID: 797595597307625376}
   - component: {fileID: 2290676035158755276}
   - component: {fileID: 3256986746698046601}
-  - component: {fileID: 6124629385192619405}
   - component: {fileID: 6020044201903602513}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29767,19 +28058,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6124629385192619405
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5917969813782471702}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6020044201903602513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29803,7 +28081,6 @@ GameObject:
   - component: {fileID: 8623361264517471317}
   - component: {fileID: 916525050654059278}
   - component: {fileID: 7127298037770176561}
-  - component: {fileID: 7557496913443826287}
   - component: {fileID: 334286513538896337}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29875,19 +28152,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7557496913443826287
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5921788545619096640}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &334286513538896337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29911,7 +28175,6 @@ GameObject:
   - component: {fileID: 5038670614846240508}
   - component: {fileID: 5504694454289192954}
   - component: {fileID: 5374804243373785155}
-  - component: {fileID: 1680162448121585743}
   - component: {fileID: 5676669580638980587}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -29983,19 +28246,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1680162448121585743
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5935323158832688378}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5676669580638980587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30019,7 +28269,6 @@ GameObject:
   - component: {fileID: 9008628630950422699}
   - component: {fileID: 3050638142167082858}
   - component: {fileID: 7444661465413541785}
-  - component: {fileID: 6743739774902514807}
   - component: {fileID: 6300622684530150210}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30091,19 +28340,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6743739774902514807
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975615184710332189}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6300622684530150210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30127,7 +28363,6 @@ GameObject:
   - component: {fileID: 5694385594573657772}
   - component: {fileID: 5490711002206164877}
   - component: {fileID: 4107943586580870679}
-  - component: {fileID: 68125211584743336}
   - component: {fileID: 907310092106941652}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30199,19 +28434,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &68125211584743336
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5977827513068514758}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &907310092106941652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30235,7 +28457,6 @@ GameObject:
   - component: {fileID: 2076882918517994060}
   - component: {fileID: 2681319941871733827}
   - component: {fileID: 6928033550976260756}
-  - component: {fileID: 7449180972206607259}
   - component: {fileID: 3276446305659773995}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30307,19 +28528,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7449180972206607259
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6118407423286419931}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3276446305659773995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30343,7 +28551,6 @@ GameObject:
   - component: {fileID: 8149950477417055093}
   - component: {fileID: 250871196962226663}
   - component: {fileID: 7057524353268029921}
-  - component: {fileID: 2244970023805802221}
   - component: {fileID: 5452186457109851319}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30415,19 +28622,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2244970023805802221
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6131156329507146669}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5452186457109851319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30451,7 +28645,6 @@ GameObject:
   - component: {fileID: 476258616540804285}
   - component: {fileID: 7847192330919859412}
   - component: {fileID: 3371743608114813002}
-  - component: {fileID: 6431962585530599276}
   - component: {fileID: 48143521053142321}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30523,19 +28716,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6431962585530599276
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210697619875335676}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &48143521053142321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30559,7 +28739,6 @@ GameObject:
   - component: {fileID: 327197715858905698}
   - component: {fileID: 8068857361630791231}
   - component: {fileID: 6383088863777086778}
-  - component: {fileID: 1932172494069200062}
   - component: {fileID: 247111183330877845}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30631,19 +28810,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1932172494069200062
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6232426198782210767}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &247111183330877845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30667,7 +28833,6 @@ GameObject:
   - component: {fileID: 6419194847653196938}
   - component: {fileID: 8835099472499687700}
   - component: {fileID: 1767833542475639298}
-  - component: {fileID: 1145059817358552159}
   - component: {fileID: 7648467960341046882}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30739,19 +28904,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1145059817358552159
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239246451830660267}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7648467960341046882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30775,7 +28927,6 @@ GameObject:
   - component: {fileID: 4885985013808315674}
   - component: {fileID: 6244398435826627602}
   - component: {fileID: 4360022508238800441}
-  - component: {fileID: 7063928644167214619}
   - component: {fileID: 7255438289732170669}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30847,19 +28998,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7063928644167214619
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6392138924822478699}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7255438289732170669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30883,7 +29021,6 @@ GameObject:
   - component: {fileID: 8479523874408948547}
   - component: {fileID: 1272456338515067172}
   - component: {fileID: 5638695967444554347}
-  - component: {fileID: 2552373399280489725}
   - component: {fileID: 3255623534169400606}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -30955,19 +29092,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2552373399280489725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402129801421088248}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3255623534169400606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30991,7 +29115,6 @@ GameObject:
   - component: {fileID: 2288955461500261570}
   - component: {fileID: 6410819794152718851}
   - component: {fileID: 4249472281826112735}
-  - component: {fileID: 8645066895978455663}
   - component: {fileID: 2415721298631409307}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31063,19 +29186,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8645066895978455663
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6542883608302993863}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2415721298631409307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31099,7 +29209,6 @@ GameObject:
   - component: {fileID: 3595457443448899812}
   - component: {fileID: 853142432556527673}
   - component: {fileID: 3398697633439055124}
-  - component: {fileID: 2933723257525602581}
   - component: {fileID: 4569623667908174175}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31171,19 +29280,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2933723257525602581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6594161746331514681}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4569623667908174175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31207,7 +29303,6 @@ GameObject:
   - component: {fileID: 8317917400404196761}
   - component: {fileID: 2344595609225751541}
   - component: {fileID: 5178065198194151051}
-  - component: {fileID: 1703169263534900905}
   - component: {fileID: 5174915867805493367}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31279,19 +29374,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1703169263534900905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6600346831022823901}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5174915867805493367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31315,7 +29397,6 @@ GameObject:
   - component: {fileID: 6974654992023967497}
   - component: {fileID: 2666495768018626640}
   - component: {fileID: 4627036861763442834}
-  - component: {fileID: 1404124408510242338}
   - component: {fileID: 2372215887655887813}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31387,19 +29468,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1404124408510242338
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601741912410734932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2372215887655887813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31423,7 +29491,6 @@ GameObject:
   - component: {fileID: 1444091685180613968}
   - component: {fileID: 8496656271120638217}
   - component: {fileID: 5043371272274798905}
-  - component: {fileID: 2767781247239551564}
   - component: {fileID: 7051944558892165013}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31495,19 +29562,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2767781247239551564
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6648706707908620504}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7051944558892165013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31531,7 +29585,6 @@ GameObject:
   - component: {fileID: 1090010383012122228}
   - component: {fileID: 1238243453252857737}
   - component: {fileID: 3805289994711923861}
-  - component: {fileID: 3107143936422675135}
   - component: {fileID: 2587411845595756843}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31603,19 +29656,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3107143936422675135
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6686632842321257090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2587411845595756843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31639,7 +29679,6 @@ GameObject:
   - component: {fileID: 998688535305070952}
   - component: {fileID: 8620879298990138028}
   - component: {fileID: 7389753077383728789}
-  - component: {fileID: 1776361178427039918}
   - component: {fileID: 6174282890727120784}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31711,19 +29750,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1776361178427039918
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6848453241343665328}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6174282890727120784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31747,7 +29773,6 @@ GameObject:
   - component: {fileID: 6148657053058465799}
   - component: {fileID: 307663258083128592}
   - component: {fileID: 2162158208452721808}
-  - component: {fileID: 8592085446129455282}
   - component: {fileID: 5940614224902212491}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31819,19 +29844,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8592085446129455282
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6896100592695629103}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5940614224902212491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31855,7 +29867,6 @@ GameObject:
   - component: {fileID: 2635112268986366213}
   - component: {fileID: 283002347027787854}
   - component: {fileID: 4030567363924854976}
-  - component: {fileID: 5362351053835558876}
   - component: {fileID: 1832232658048824594}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -31927,19 +29938,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5362351053835558876
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6983499768244486110}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1832232658048824594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31963,7 +29961,6 @@ GameObject:
   - component: {fileID: 8694415501210638992}
   - component: {fileID: 1617464814257016852}
   - component: {fileID: 8415938950727545905}
-  - component: {fileID: 6635855833005202206}
   - component: {fileID: 7332262444245254637}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32035,19 +30032,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6635855833005202206
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7008752328068279491}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7332262444245254637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32071,7 +30055,6 @@ GameObject:
   - component: {fileID: 7855481263704126858}
   - component: {fileID: 7866513596354086018}
   - component: {fileID: 4325879571413045474}
-  - component: {fileID: 5615821521599953280}
   - component: {fileID: 9049513181869118157}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32143,19 +30126,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5615821521599953280
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7019780492616477627}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9049513181869118157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32179,7 +30149,6 @@ GameObject:
   - component: {fileID: 8799853475800064025}
   - component: {fileID: 9158256123333095118}
   - component: {fileID: 8192033721676859648}
-  - component: {fileID: 8825827701658567895}
   - component: {fileID: 7976572965085362170}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32251,19 +30220,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8825827701658567895
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7032745541598613128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7976572965085362170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32287,7 +30243,6 @@ GameObject:
   - component: {fileID: 5067865620612011727}
   - component: {fileID: 7273168025534889711}
   - component: {fileID: 3056968788864133958}
-  - component: {fileID: 2494420263676719033}
   - component: {fileID: 5087182555972790234}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32359,19 +30314,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2494420263676719033
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7123702342209544013}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5087182555972790234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32395,7 +30337,6 @@ GameObject:
   - component: {fileID: 7718639905859634077}
   - component: {fileID: 3268163259273609620}
   - component: {fileID: 2524758265700525651}
-  - component: {fileID: 7577225699422595633}
   - component: {fileID: 7296954571262076729}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32467,19 +30408,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7577225699422595633
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7144092373218242154}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7296954571262076729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32503,7 +30431,6 @@ GameObject:
   - component: {fileID: 1206291258252050468}
   - component: {fileID: 4011699571084122522}
   - component: {fileID: 3752548050991487188}
-  - component: {fileID: 6469995410599598753}
   - component: {fileID: 5792830143440951064}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32575,19 +30502,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6469995410599598753
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7244189798101008791}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5792830143440951064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32611,7 +30525,6 @@ GameObject:
   - component: {fileID: 7143368067771473008}
   - component: {fileID: 6170468527655638426}
   - component: {fileID: 129704954494964013}
-  - component: {fileID: 5836571192615841171}
   - component: {fileID: 7341310645337061386}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32683,19 +30596,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5836571192615841171
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7283571843583881047}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7341310645337061386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32719,7 +30619,6 @@ GameObject:
   - component: {fileID: 4612725341324422535}
   - component: {fileID: 5874976819965688402}
   - component: {fileID: 3197938948413175065}
-  - component: {fileID: 2951691940808825992}
   - component: {fileID: 6947487626255114469}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32791,19 +30690,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2951691940808825992
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7539072563940929880}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6947487626255114469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32827,7 +30713,6 @@ GameObject:
   - component: {fileID: 833836915646806957}
   - component: {fileID: 705327326382158409}
   - component: {fileID: 8897586805419784607}
-  - component: {fileID: 1777403858497720834}
   - component: {fileID: 1630418600732490618}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -32899,19 +30784,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1777403858497720834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7743070552495899126}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1630418600732490618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32935,7 +30807,6 @@ GameObject:
   - component: {fileID: 2041293075039959956}
   - component: {fileID: 6375805495508047305}
   - component: {fileID: 7592228548131217671}
-  - component: {fileID: 2540634550185881557}
   - component: {fileID: 8379091088731731077}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33007,19 +30878,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2540634550185881557
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7761923266870472106}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8379091088731731077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33072,7 +30930,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7793766192075827733}
-  - component: {fileID: 588740064626945849}
   - component: {fileID: 1231057950918609788}
   - component: {fileID: 875267076873367870}
   - component: {fileID: 7793766192075827732}
@@ -33103,25 +30960,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &588740064626945849
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7793766192075827735}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!54 &1231057950918609788
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33164,11 +31002,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c12430cbb7e31a4cb3831bc2c731026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mover: {fileID: 0}
-  _chamber: {fileID: 0}
+  _dieAnimation: {fileID: -203655887218126122, guid: 00cb5ea3c03ac9a49ad0cac7bb16f252, type: 3}
+  _runAnimation: {fileID: -203655887218126122, guid: 4a01af9a9787978428ab3bbc010b12bf, type: 3}
+  _animator: {fileID: 2885161456646678922}
+  _mover: {fileID: 1376840555}
+  _chamber: {fileID: 1279282069005006939}
   _gun: {fileID: 0}
-  _backwardSpeed: 0
-  _sideSpeed: 0
+  _backwardSpeed: 5
+  _sideSpeed: 6
 --- !u!1 &7829499881229198743
 GameObject:
   m_ObjectHideFlags: 0
@@ -33180,7 +31021,6 @@ GameObject:
   - component: {fileID: 8844488046197450349}
   - component: {fileID: 5077930370539288065}
   - component: {fileID: 1115045046335003331}
-  - component: {fileID: 5967270204258446727}
   - component: {fileID: 5141403698011383814}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33252,19 +31092,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5967270204258446727
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7829499881229198743}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5141403698011383814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33288,7 +31115,6 @@ GameObject:
   - component: {fileID: 1567618056482562777}
   - component: {fileID: 8893152090230867712}
   - component: {fileID: 6379252539504062145}
-  - component: {fileID: 6951150695096330867}
   - component: {fileID: 254409730819034681}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33360,19 +31186,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6951150695096330867
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7868284650363588399}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &254409730819034681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33396,7 +31209,6 @@ GameObject:
   - component: {fileID: 3022142776377861789}
   - component: {fileID: 810131367024515389}
   - component: {fileID: 1138352429116589546}
-  - component: {fileID: 4334609370395818697}
   - component: {fileID: 5749107335032047113}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33468,19 +31280,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4334609370395818697
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7914538497399536375}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5749107335032047113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33504,7 +31303,6 @@ GameObject:
   - component: {fileID: 2658235083909699864}
   - component: {fileID: 7914645883207734513}
   - component: {fileID: 8995817667461735898}
-  - component: {fileID: 7743630057391430209}
   - component: {fileID: 8703134071931577833}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33576,19 +31374,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7743630057391430209
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8057628475405455203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8703134071931577833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33612,7 +31397,6 @@ GameObject:
   - component: {fileID: 6700684852396999755}
   - component: {fileID: 1938541451317639937}
   - component: {fileID: 7786462889081522152}
-  - component: {fileID: 7069381165466317703}
   - component: {fileID: 7600550553852630709}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33684,19 +31468,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7069381165466317703
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8128465144585503764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7600550553852630709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33720,7 +31491,6 @@ GameObject:
   - component: {fileID: 6867445370145982710}
   - component: {fileID: 2339465930545290443}
   - component: {fileID: 5021355079057058796}
-  - component: {fileID: 666185268537849744}
   - component: {fileID: 145539268343013175}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33792,19 +31562,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &666185268537849744
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8165879181942751690}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &145539268343013175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33828,7 +31585,6 @@ GameObject:
   - component: {fileID: 2327867609760017719}
   - component: {fileID: 2490173161263698434}
   - component: {fileID: 2535543352816899578}
-  - component: {fileID: 964330104081263410}
   - component: {fileID: 8074962432456336049}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -33900,19 +31656,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &964330104081263410
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8176032554124153434}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8074962432456336049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33936,7 +31679,6 @@ GameObject:
   - component: {fileID: 7395467411372527156}
   - component: {fileID: 7075616531988200756}
   - component: {fileID: 977933450533472546}
-  - component: {fileID: 5928541850507906567}
   - component: {fileID: 1327143226201433890}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34008,19 +31750,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5928541850507906567
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8183641592584549489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1327143226201433890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34044,7 +31773,6 @@ GameObject:
   - component: {fileID: 8738448676029881223}
   - component: {fileID: 6210272475000404679}
   - component: {fileID: 5691167600125222652}
-  - component: {fileID: 6206426864113057432}
   - component: {fileID: 331150258352120602}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34116,19 +31844,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6206426864113057432
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8222521417852036709}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &331150258352120602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34152,7 +31867,6 @@ GameObject:
   - component: {fileID: 8119527357028794034}
   - component: {fileID: 3170104304004488835}
   - component: {fileID: 1110984512454183990}
-  - component: {fileID: 5162260071706275230}
   - component: {fileID: 7175481759821637020}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34224,19 +31938,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5162260071706275230
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8339949527300289944}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7175481759821637020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34260,7 +31961,6 @@ GameObject:
   - component: {fileID: 467664366573033294}
   - component: {fileID: 1066662746316979752}
   - component: {fileID: 2638944602322866712}
-  - component: {fileID: 3579324920483808750}
   - component: {fileID: 5383405819566562062}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34332,19 +32032,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3579324920483808750
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8349916943317410952}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5383405819566562062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34368,7 +32055,6 @@ GameObject:
   - component: {fileID: 9221521031551416051}
   - component: {fileID: 371525770406295016}
   - component: {fileID: 8453718390364805537}
-  - component: {fileID: 2457263529188426423}
   - component: {fileID: 6360740380035335572}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34440,19 +32126,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2457263529188426423
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8352211302542254694}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6360740380035335572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34476,7 +32149,6 @@ GameObject:
   - component: {fileID: 1943118504161660217}
   - component: {fileID: 5182937106518482143}
   - component: {fileID: 2869201377398919221}
-  - component: {fileID: 6071786004792471552}
   - component: {fileID: 3688802559260102921}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34548,19 +32220,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6071786004792471552
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8360585651329475993}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3688802559260102921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34584,7 +32243,6 @@ GameObject:
   - component: {fileID: 1550061906867704715}
   - component: {fileID: 3549884483122274982}
   - component: {fileID: 1784585032743173305}
-  - component: {fileID: 8684239350109710729}
   - component: {fileID: 4596801682541492978}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34656,19 +32314,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8684239350109710729
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8405936988100487670}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4596801682541492978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34692,7 +32337,6 @@ GameObject:
   - component: {fileID: 2858568169185577120}
   - component: {fileID: 5850055764802190099}
   - component: {fileID: 6590750724167520667}
-  - component: {fileID: 7543733731934998010}
   - component: {fileID: 4570295179163522751}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34764,19 +32408,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7543733731934998010
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8492906527154812593}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4570295179163522751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34800,7 +32431,6 @@ GameObject:
   - component: {fileID: 2673590344070772519}
   - component: {fileID: 6264832198520819794}
   - component: {fileID: 6569289346744823831}
-  - component: {fileID: 3236062172854999401}
   - component: {fileID: 8681523448742927299}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34872,19 +32502,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3236062172854999401
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8498793261225661214}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8681523448742927299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34908,7 +32525,6 @@ GameObject:
   - component: {fileID: 8269734211768184576}
   - component: {fileID: 5406234360870950816}
   - component: {fileID: 1255403906048869489}
-  - component: {fileID: 16295315142027120}
   - component: {fileID: 3181984543451987448}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -34980,19 +32596,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &16295315142027120
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8515283277980294090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3181984543451987448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35016,7 +32619,6 @@ GameObject:
   - component: {fileID: 3826289076993209091}
   - component: {fileID: 3961274303392534868}
   - component: {fileID: 5175875769002164036}
-  - component: {fileID: 4091129424905861172}
   - component: {fileID: 2424431660495835759}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35088,19 +32690,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4091129424905861172
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8551029100733307532}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2424431660495835759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35124,7 +32713,6 @@ GameObject:
   - component: {fileID: 5016048576186476038}
   - component: {fileID: 1827570141528645144}
   - component: {fileID: 9114617396114484005}
-  - component: {fileID: 141361543761835435}
   - component: {fileID: 3572792852365710862}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35196,19 +32784,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &141361543761835435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8588129113733232273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3572792852365710862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35232,7 +32807,6 @@ GameObject:
   - component: {fileID: 4991416945842693089}
   - component: {fileID: 8612556711370723961}
   - component: {fileID: 8113918261007423218}
-  - component: {fileID: 1958903515024563736}
   - component: {fileID: 3030999520179379518}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35304,19 +32878,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1958903515024563736
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8595079491306105218}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3030999520179379518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35340,7 +32901,6 @@ GameObject:
   - component: {fileID: 8875793471161784674}
   - component: {fileID: 8661175530852343928}
   - component: {fileID: 3982404543943902998}
-  - component: {fileID: 3213444535752267404}
   - component: {fileID: 4101689217348326243}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35412,19 +32972,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3213444535752267404
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8803072781720190784}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4101689217348326243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35448,7 +32995,6 @@ GameObject:
   - component: {fileID: 7775411667801185020}
   - component: {fileID: 3391422234517399343}
   - component: {fileID: 1588242997510642384}
-  - component: {fileID: 5377907662777663714}
   - component: {fileID: 4276705527800440921}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35520,19 +33066,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5377907662777663714
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8904665764458615627}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4276705527800440921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35556,7 +33089,6 @@ GameObject:
   - component: {fileID: 4415407939600316785}
   - component: {fileID: 7281696473952039085}
   - component: {fileID: 7250712556339286580}
-  - component: {fileID: 8851045935155632589}
   - component: {fileID: 1655799579987221624}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35628,19 +33160,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8851045935155632589
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8998607044002988176}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1655799579987221624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35664,7 +33183,6 @@ GameObject:
   - component: {fileID: 2896960509638614412}
   - component: {fileID: 3026084204064100715}
   - component: {fileID: 8287777596124024385}
-  - component: {fileID: 8481657091074278395}
   - component: {fileID: 1674925878871676758}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35736,19 +33254,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8481657091074278395
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9018924364799098454}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1674925878871676758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35772,7 +33277,6 @@ GameObject:
   - component: {fileID: 2762737231461615707}
   - component: {fileID: 2807501123667201347}
   - component: {fileID: 3589289208963934006}
-  - component: {fileID: 6875347685634961777}
   - component: {fileID: 6433843456167835053}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35844,19 +33348,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6875347685634961777
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9025312330984415505}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6433843456167835053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35880,7 +33371,6 @@ GameObject:
   - component: {fileID: 4680042411792290939}
   - component: {fileID: 1525475708800169226}
   - component: {fileID: 9146719842711775510}
-  - component: {fileID: 403256414416846606}
   - component: {fileID: 374753871420751744}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -35952,19 +33442,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &403256414416846606
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9101608495132770396}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &374753871420751744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35988,7 +33465,6 @@ GameObject:
   - component: {fileID: 3807022467061907802}
   - component: {fileID: 5382117053985622295}
   - component: {fileID: 8664657687053922510}
-  - component: {fileID: 1418680677924611039}
   - component: {fileID: 7040655277878755540}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -36060,19 +33536,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1418680677924611039
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9186103154049378641}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7040655277878755540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36096,7 +33559,6 @@ GameObject:
   - component: {fileID: 5211388502045055686}
   - component: {fileID: 1283594292869493747}
   - component: {fileID: 4227743450932887229}
-  - component: {fileID: 8279609893544614672}
   - component: {fileID: 5082689471668641178}
   m_Layer: 3
   m_Name: AmmoPackPlace
@@ -36168,19 +33630,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8279609893544614672
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9211432104568740896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5082689471668641178
 MonoBehaviour:
   m_ObjectHideFlags: 0
