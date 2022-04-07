@@ -130,6 +130,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6457598641197878994, guid: ab048de2587e60e45b19be6a97699151, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457598641197878994, guid: ab048de2587e60e45b19be6a97699151, type: 3}
       propertyPath: TrailModule.colorOverLifetime.maxGradient.atime0
       value: 386
       objectReference: {fileID: 0}

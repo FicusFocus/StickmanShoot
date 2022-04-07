@@ -5,9 +5,19 @@ public abstract class Ammo : MonoBehaviour
 {
     [SerializeField] protected float Speed;
 
+    private bool _doMove = true;
+
+    protected Collider Collider;
+
+    private void Start()
+    {
+        Collider = GetComponent<Collider>();
+    }
+
     private void Update()
     {
-        Move();
+        if (_doMove)
+            Move();
     }
 
     private void Move()
@@ -15,5 +25,13 @@ public abstract class Ammo : MonoBehaviour
         transform.Translate(Vector3.forward * Speed * Time.deltaTime);
     }
 
-    protected abstract void OnTriggerEnter(Collider other);
+    protected virtual void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Player player))
+        {
+            _doMove = false;
+            transform.SetParent(player.transform);
+            transform.position = Vector3.zero;
+        }
+    }
 }

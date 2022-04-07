@@ -8,9 +8,10 @@ public class Bullet : Ammo
         if (other.TryGetComponent(out Enemy enemy))
         {
             enemy.TakeDamage();
+            base.OnTriggerEnter(other);
             Destroy(gameObject);
         }
-        
+
         Destroy(gameObject);
     }
 }

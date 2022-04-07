@@ -2,30 +2,30 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(NavMeshAgent), typeof(Collider))]
 public class Enemy : MonoBehaviour
-{    
-    [Range (0.1f, 2f) ,SerializeField] private float _attackDistance = 1f;
-    [SerializeField] private float _speed;
+{
+    [Range(0.1f, 2f), SerializeField] private float _attackDistance = 1f;
     [SerializeField] private Material _liveEnemyMaterial;
     [SerializeField] private Material _deadEnemyMaterial;
     [SerializeField] private SkinnedMeshRenderer _materialConteiner;
     [SerializeField] private Animator _animator;
+    [SerializeField] private CapsuleCollider _collider;
+    [SerializeField] private NavMeshAgent _meshAgent;
+    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private float _speed;
 
-    private NavMeshAgent _meshAgent;
     private Player _target;
+    private float _yDiedPosition = -0.6f;
     private bool _stopChasing = false;
     private float _dyuingClipLanth = 4.6f;
     private string _die = "Die";
     private string _attack = "Attack";
-    private string _win = "Win";
 
     public event UnityAction<Enemy> Died;
 
     private void Start()
     {
         _materialConteiner.material = _liveEnemyMaterial;
-        _meshAgent = GetComponent<NavMeshAgent>();
         _meshAgent.speed = _speed;
     }
 
@@ -35,10 +35,10 @@ public class Enemy : MonoBehaviour
             return;
 
         _meshAgent.SetDestination(_target.transform.position);
-        CheckDistanceTotarget(_target.transform.position);
+        CheckDistanceToTarget(_target.transform.position);
     }
 
-    private void CheckDistanceTotarget(Vector3 targetPosition)
+    private void CheckDistanceToTarget(Vector3 targetPosition)
     {
         var enemyPosition = transform.position;
 
@@ -59,6 +59,13 @@ public class Enemy : MonoBehaviour
         _stopChasing = true;
         _animator.SetTrigger(_die);
         Died?.Invoke(this);
+
+        Vector3 currentPosition = transform.position;
+        transform.position = new Vector3(currentPosition.x, _yDiedPosition, currentPosition.z);
+
+        Destroy(_meshAgent);
+        Destroy(_collider);
+        Destroy(_rigidbody);
         Destroy(gameObject, _dyuingClipLanth);
     }
 
@@ -74,6 +81,8 @@ public class Enemy : MonoBehaviour
 
     public void StopChasing()
     {
+        _rigidbody.velocity = Vector3.zero;
+        _collider.isTrigger = true;
         _meshAgent.isStopped = true;
         _stopChasing = true;
         _animator.SetTrigger(_attack);

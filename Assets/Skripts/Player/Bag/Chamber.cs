@@ -4,8 +4,8 @@ using TMPro;
 
 public class Chamber : MonoBehaviour
 {
-    [Range(1, 180), SerializeField] private int _baseBulletsCount;
-    [SerializeField] private List<AmmoPackPlace> _packPlaces;
+    [Range(0, 200), SerializeField] private int _baseBulletsCount;
+    [SerializeField] private AmmoPackPlace[] _packPlaces = new AmmoPackPlace[200];
     [SerializeField] private Gun _gun;
     [SerializeField] private Ammo _startAmmoType;
     [SerializeField] private Ammo _granads;
@@ -13,7 +13,7 @@ public class Chamber : MonoBehaviour
     [SerializeField] private TMP_Text _ammoCounter;
 
     private int _currentBulletsCount;
-    private int _maxBulletsCount => _packPlaces.Count;
+    private int _maxBulletsCount => _packPlaces.Length;
 
     private void OnEnable() => _gun.Shoted += OnGunShooted;
     private void OnDisable() => _gun.Shoted -= OnGunShooted;
@@ -31,11 +31,13 @@ public class Chamber : MonoBehaviour
 
     private void SetAvtivePackPlace()
     {
-        for (int i = 0; i < _currentBulletsCount / 2; i++)
-            _packPlaces[i].gameObject.SetActive(true);
-
-        for (int i = _currentBulletsCount; i < _packPlaces.Count; i++)
-            _packPlaces[i].gameObject.SetActive(false);
+        for (int i = 0; i < _packPlaces.Length; i++)
+        {
+            if (i < _currentBulletsCount)
+                _packPlaces[i].gameObject.SetActive(true);
+            else
+                _packPlaces[i].gameObject.SetActive(false);
+        }
     }
 
     private void OnGunShooted()
@@ -63,6 +65,7 @@ public class Chamber : MonoBehaviour
                 _currentBulletsCount = _maxBulletsCount;
 
             SetAmmoCounerValue(_currentBulletsCount);
+            SetAvtivePackPlace();
             _gun.CanShoot(true);
         }
     }

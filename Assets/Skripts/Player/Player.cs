@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private EquipmentController _equipmentController;
     [SerializeField] private Animator _animator;
     [SerializeField] private PlayerMover _mover;
     [SerializeField] private Chamber _chamber;
@@ -31,11 +32,30 @@ public class Player : MonoBehaviour
         if (other.TryGetComponent(out Pack pack))
         {
             pack.Destroyed();
+            pack.SetNewParrent(transform);
 
             if (pack.TryGetComponent(out AmmoPack ammo))
+            {
                 _chamber.TakeAmmo(ammo.AmmoInPack);
+            }
             else
+            {
+                if (pack.TryGetComponent(out BulletsPack bullets))
+                {
+                    _equipmentController.PutOnSniperEquipment();
+                }
+                else if (pack.TryGetComponent(out WhizzbangPack whizzbang))
+                {
+                    _equipmentController.PutOnGrenadierEquipment();
+                }
+                else if (pack.TryGetComponent(out GunLevelUpPack gunLevelUp))
+                {
+                    _gun.UpFireRate(gunLevelUp.UpFireRate);
+                    _equipmentController.PutOnGrenadierEquipment();
+                }
+
                 _chamber.ChangeAmmoType(pack);
+            }
         }
     }
 

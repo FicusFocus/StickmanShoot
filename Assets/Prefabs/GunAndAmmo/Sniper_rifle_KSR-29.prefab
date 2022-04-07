@@ -699,9 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9807065b53647184991317d0561473d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullets: {fileID: 7912962665100463096, guid: a35f4b150e88a224bbd9897dd7a855c9, type: 3}
-  _granads: {fileID: 2095352917296703632, guid: 80174d1fc7e071d46a919219aa011c0c, type: 3}
   _shootPoint: {fileID: 0}
   _shootEffect: {fileID: 0}
-  _baseFireRate: 0.4
+  _baseFireRate: 0.2
   _maxGunLevel: 3
