@@ -7,11 +7,11 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Enemy _bigEnemyTemplate, _smallEnemyTamplate;
     [SerializeField] private Transform _templatesContainer;
     [SerializeField] private Transform _spawnPoint;
-    [SerializeField] private Player _target;
     [SerializeField] private float _deleay;
     [SerializeField] private int _smallEnemyesAmount;
     [SerializeField] private int _bigEnemyesAmount;
 
+    private Player _target;
     private Vector3 _enemySpwanPosition => _spawnPoint.position;
     private Enemy _lastSpawnedEnemy;
     private float _timeAfterLastSpawn = 0;
@@ -70,5 +70,10 @@ public class Spawner : MonoBehaviour
         _lastSpawnedEnemy = enemyType;
         newEnemy.Init(_target);
         EnemySpawned?.Invoke(newEnemy);
+    }
+
+    public void Init(Player target)
+    {
+        _target = target;
     }
 }

@@ -20630,8 +20630,8 @@ MonoBehaviour:
   _mover: {fileID: 6002776451953740548}
   _chamber: {fileID: 860654750}
   _gun: {fileID: 2368936463348129250}
-  _backwardSpeed: 5
-  _sideSpeed: 6
+  _backwardSpeed: 4
+  _sideSpeed: 5
 --- !u!1 &4571782810027475651
 GameObject:
   m_ObjectHideFlags: 0

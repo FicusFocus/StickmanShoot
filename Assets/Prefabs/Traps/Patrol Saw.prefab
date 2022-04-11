@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7447703456888497552}
   - component: {fileID: 8010069010784432362}
   - component: {fileID: 1804613266351763527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle-6.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2123497181858558742}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 1, z: 5.8}
+  m_LocalScale: {x: 4.88, y: 1, z: 5.8}
   m_Children: []
   m_Father: {fileID: 7522032518412999241}
   m_RootOrder: 1
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 282623871904391513}
   - component: {fileID: 704316844911639889}
   - component: {fileID: 7330577266425433766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 5577685154030918324}
   m_LocalRotation: {x: 0.031410765, y: -0, z: -0, w: 0.9995066}
   m_LocalPosition: {x: -0, y: 0.09686564, z: 3.84}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 7522032518412999241}
   m_RootOrder: 0
@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7522032518412999241}
   - component: {fileID: 8064004944324088262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Patrol Saw
   m_TagString: Untagged
   m_Icon: {fileID: 0}

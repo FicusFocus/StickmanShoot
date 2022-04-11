@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: PlaneMat
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _CELPRIMARYMODE_SINGLE _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_NONE
+  m_ShaderKeywords: _CELPRIMARYMODE_SINGLE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _TEXTUREBLENDINGMODE_MULTIPLY
+    _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -86,7 +87,7 @@ Material:
     - _Flatness: 1
     - _FlatnessExtra: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.221
     - _GlossyReflections: 1
     - _GradientAngle: 0
     - _GradientCenterX: 0
@@ -107,7 +108,7 @@ Material:
     - _SelfShadingSizeExtra: 0.6
     - _ShadowEdgeSize: 0
     - _ShadowEdgeSizeExtra: 0.05
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularEnabled: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -121,7 +122,7 @@ Material:
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
     - _ColorDim: {r: 1, g: 1, b: 1, a: 0.7647059}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
@@ -131,6 +132,6 @@ Material:
     - _FlatRimColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _FlatSpecularColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _SpecColor: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
   m_BuildTextureStacks: []

@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnersController : MonoBehaviour
 {
     [SerializeField] private List<Spawner> _spawners;
+    [SerializeField] private Player _target;
 
     private void Start()
     {
@@ -17,7 +18,10 @@ public class SpawnersController : MonoBehaviour
         if (other.TryGetComponent(out Player player))
         {
             foreach(Spawner spawner in _spawners)
+            {
+                spawner.Init(_target);
                 spawner.gameObject.SetActive(true);
+            }
         }
     }
 }

@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
         StopChasing();
     }
 
-    private void Die()
+    public void TakeDamage()
     {
         _materialConteiner.material = _deadEnemyMaterial;
         _stopChasing = true;
@@ -67,11 +67,6 @@ public class Enemy : MonoBehaviour
         Destroy(_collider);
         Destroy(_rigidbody);
         Destroy(gameObject, _dyuingClipLanth);
-    }
-
-    public void TakeDamage()
-    {
-        Die();
     }
 
     public void Init(Player target)
