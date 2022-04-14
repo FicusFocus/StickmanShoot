@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _speed;
 
     private Player _target;
-    private float _yDiedPosition = -0.6f;
     private bool _stopChasing = false;
     private float _dyuingClipLanth = 4.6f;
     private string _die = "Die";
@@ -55,17 +54,11 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage()
     {
+        StopChasing();
         _materialConteiner.material = _deadEnemyMaterial;
-        _stopChasing = true;
         _animator.SetTrigger(_die);
         Died?.Invoke(this);
-
-        Vector3 currentPosition = transform.position;
-        transform.position = new Vector3(currentPosition.x, _yDiedPosition, currentPosition.z);
-
-        Destroy(_meshAgent);
-        Destroy(_collider);
-        Destroy(_rigidbody);
+        _collider.enabled = false;
         Destroy(gameObject, _dyuingClipLanth);
     }
 
@@ -77,9 +70,9 @@ public class Enemy : MonoBehaviour
     public void StopChasing()
     {
         _rigidbody.velocity = Vector3.zero;
+        _rigidbody.isKinematic = true;
         _collider.isTrigger = true;
         _meshAgent.isStopped = true;
         _stopChasing = true;
-        _animator.SetTrigger(_attack);
     }
 }

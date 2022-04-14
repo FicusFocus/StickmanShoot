@@ -7,8 +7,8 @@ public class Whizzbang : Ammo
 
     protected override void OnTriggerEnter(Collider other)
     {
-        base.OnTriggerEnter(other);
         Bang();
+        base.OnTriggerEnter(other);
     }
 
     private void Bang()
@@ -21,7 +21,7 @@ public class Whizzbang : Ammo
                 enemy.TakeDamage();
         }
 
-        this.Collider.enabled = false;
+        Collider.enabled = false;
         _bangEffect.Play();
         Destroy(gameObject, _bangEffect.main.duration);
     }
