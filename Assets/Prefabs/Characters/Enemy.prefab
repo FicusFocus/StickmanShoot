@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4038564282057097009}
   - component: {fileID: 1413803589126718001}
   - component: {fileID: 4038564282057097011}
-  - component: {fileID: 4898829839465512334}
-  - component: {fileID: 282276875122327027}
+  - component: {fileID: 1446364122901144416}
+  - component: {fileID: 4848084176178447807}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -74,11 +74,11 @@ MonoBehaviour:
   _deadEnemyMaterial: {fileID: 2100000, guid: cb7f172404f58a940b53f6e38e09028c, type: 2}
   _materialConteiner: {fileID: 9030479629176193966}
   _animator: {fileID: 9030479629172030830}
-  _collider: {fileID: 4898829839465512334}
+  _collider: {fileID: 1446364122901144416}
   _meshAgent: {fileID: 1413803589126718001}
-  _rigidbody: {fileID: 282276875122327027}
+  _rigidbody: {fileID: 4848084176178447807}
   _speed: 9
---- !u!136 &4898829839465512334
+--- !u!136 &1446364122901144416
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,7 +92,7 @@ CapsuleCollider:
   m_Height: 1.8472184
   m_Direction: 1
   m_Center: {x: -0, y: 0.8801132, z: -0.08156173}
---- !u!54 &282276875122327027
+--- !u!54 &4848084176178447807
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

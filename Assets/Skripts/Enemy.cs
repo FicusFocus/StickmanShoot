@@ -58,6 +58,7 @@ public class Enemy : MonoBehaviour
         _materialConteiner.material = _deadEnemyMaterial;
         _animator.SetTrigger(_die);
         Died?.Invoke(this);
+        _meshAgent.enabled = false;
         _collider.enabled = false;
         Destroy(gameObject, _dyuingClipLanth);
     }
