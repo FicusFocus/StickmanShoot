@@ -770,7 +770,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 6
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5300,8 +5300,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1871714560305609268}
   - component: {fileID: 6815736038607349171}
-  - component: {fileID: 4897795840499360621}
   - component: {fileID: 7224843285187875089}
+  - component: {fileID: 7517660489171956046}
   m_Layer: 6
   m_Name: GunLevelUp1
   m_TagString: Untagged
@@ -5339,22 +5339,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.21495, y: 1, z: 1}
   m_Center: {x: -0.010544062, y: 0, z: 0}
---- !u!114 &4897795840499360621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5032710049265675860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90cfdf41469fec448809f8d03519b916, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _collider: {fileID: 6815736038607349171}
-  _animator: {fileID: 7224843285187875089}
-  _destroyClip: {fileID: 7400000, guid: d66d41d9a05d75f46af8ae29def9dfec, type: 2}
-  _fireRateUpInPersent: 0.2
 --- !u!95 &7224843285187875089
 Animator:
   serializedVersion: 3
@@ -5374,6 +5358,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7517660489171956046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032710049265675860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d794da0b07fb144b2c04f9b42d8fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 6815736038607349171}
+  _animator: {fileID: 7224843285187875089}
+  _destroyClip: {fileID: 7400000, guid: d66d41d9a05d75f46af8ae29def9dfec, type: 2}
+  _gun: {fileID: 0}
 --- !u!1 &5078955103954800564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5562,7 +5562,7 @@ Transform:
   m_GameObject: {fileID: 5204873209459278172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.4, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 5225903303471099366}
   - {fileID: 932157073846497379}
@@ -5754,7 +5754,6 @@ GameObject:
   - component: {fileID: 4528873115988315758}
   - component: {fileID: 7933762288568558218}
   - component: {fileID: 5655806839048896069}
-  - component: {fileID: 723573432742282573}
   m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
@@ -5825,19 +5824,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &723573432742282573
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6892126305346663374}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7530853569184444008
 GameObject:
   m_ObjectHideFlags: 0

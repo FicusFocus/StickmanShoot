@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private PlayerMover _mover;
     [SerializeField] private Chamber _chamber;
-    [SerializeField] private Gun _gun;
+    [SerializeField] private Gun _baceGun;
     [SerializeField] private float _backwardSpeed;
     [SerializeField] private float _sideSpeed;
 
@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     {
         _mover.SetSideSpeedValue(_sideSpeed);
         _mover.SetTargetToMove(this);
+        SetNewGun(_baceGun);
     }
 
     private void Update()
@@ -29,35 +30,35 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Pack pack))
-        {
-            pack.Destroyed();
-            pack.SetNewParrent(transform);
+        //if (other.TryGetComponent(out Pack pack))  //TODO: хуяня затея, переделать
+        //{
+        //    pack.Destroyed();
+        //    pack.SetNewParrent(transform);
 
-            if (pack.TryGetComponent(out AmmoPack ammo))
-            {
-                _chamber.TakeAmmo(ammo.AmmoInPack);
-            }
-            else
-            {
-                if (pack.TryGetComponent(out BulletsPack bullets))
-                {
-                    _equipmentController.PutOnSniperEquipment();
-                }
-                else if (pack.TryGetComponent(out WhizzbangPack whizzbang))
-                {
-                    _equipmentController.PutOnGrenadierEquipment();
-                }
-                else if (pack.TryGetComponent(out GunLevelUpPack gunLevelUp))
-                {
-                    _gun.UpFireRate(gunLevelUp.UpFireRate);
-                    _equipmentController.PutOnGrenadierEquipment();
-                }
+        //    if (pack.TryGetComponent(out AmmoPack ammo))
+        //    {
+        //        _chamber.TakeAmmo(ammo.AmmoInPack);
+        //    }
+        //    else
+        //    {
+                //if (pack.TryGetComponent(out BulletsPack bullets))
+                //{
+                //    _equipmentController.PutOnSniperEquipment();
+                //}
+                //else if (pack.TryGetComponent(out WhizzbangPack whizzbang))
+                //{
+                //    _equipmentController.PutOnGrenadierEquipment();
+                //}
+                //else if (pack.TryGetComponent(out GunLevelOnePack gunLevelUp))
+                //{   //TODO: Разделить GunLevelUpPack по уровням.
+                //    //_currentGun.LevelUp(gunLevelUp.UpFireRate);
+                //    _equipmentController.PutOnGrenadierEquipment();
+                //}
 
-                _chamber.ChangeAmmoType(pack);
-            }
-        }
-    }
+                ////_chamber.ChangeAmmoType(pack);
+            //}
+       // }
+    } //ненужно скорее всего
 
     private void MoveBack()
     {
@@ -72,8 +73,26 @@ public class Player : MonoBehaviour
             _mover.SetSideSpeedValue(0);
             _backwardSpeed = 0;
             _alreadyAttacked = true;
-            _gun.CanShoot(false);
+            _chamber.StopShooting();
             Died?.Invoke();
         }
+    }
+
+    public void PutAmmoInChamber(int ammoCount)
+    {
+        if (ammoCount > 0)
+        {
+            _chamber.TakeAmmo(ammoCount);
+        }
+    }
+
+    public void SetNewGun(Gun gun)
+    {
+        _chamber.SetNewGun(gun);
+    }
+
+    public void SetNewAmmoType(Ammo newAmmoType)
+    {
+        _chamber.SetNewAmmoType(newAmmoType);
     }
 }

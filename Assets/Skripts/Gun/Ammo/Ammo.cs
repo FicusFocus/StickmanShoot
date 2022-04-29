@@ -27,11 +27,11 @@ public abstract class Ammo : MonoBehaviour
 
     protected virtual void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Player player))
+        if (other.TryGetComponent(out Enemy enemy))
         {
             _doMove = false;
-            transform.SetParent(player.transform);
-            transform.position = Vector3.zero;
+            transform.SetParent(enemy.transform);
+            transform.localPosition = Vector3.zero;
         }
     }
 }

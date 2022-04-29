@@ -5633,6 +5633,7 @@ MonoBehaviour:
   _animator: {fileID: 6834586652833202567}
   _destroyClip: {fileID: 7400000, guid: 184b6518f5e24024296843a113ca8327, type: 2}
   _dieEffect: {fileID: 77234005981068735}
+  _bullets: {fileID: 7912962665100463096, guid: a35f4b150e88a224bbd9897dd7a855c9, type: 3}
 --- !u!1001 &4346582473774336286
 PrefabInstance:
   m_ObjectHideFlags: 0

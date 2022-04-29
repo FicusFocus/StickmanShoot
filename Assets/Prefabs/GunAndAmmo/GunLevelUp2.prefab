@@ -446,7 +446,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 6
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5563,7 +5563,7 @@ Transform:
   m_GameObject: {fileID: 5781005187364592212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.4, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 5802622381963179758}
   - {fileID: 1508286852761054059}
@@ -5718,13 +5718,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6761849373217191260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90cfdf41469fec448809f8d03519b916, type: 3}
+  m_Script: {fileID: 11500000, guid: 73d794da0b07fb144b2c04f9b42d8fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _collider: {fileID: 5086664996156276411}
   _animator: {fileID: 7875986057889341429}
   _destroyClip: {fileID: 7400000, guid: d66d41d9a05d75f46af8ae29def9dfec, type: 2}
-  _fireRateUpInPersent: 0.2
+  _gun: {fileID: 0}
 --- !u!95 &7875986057889341429
 Animator:
   serializedVersion: 3

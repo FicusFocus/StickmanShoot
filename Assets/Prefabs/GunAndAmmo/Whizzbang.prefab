@@ -9789,7 +9789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b630b9d7600c540878aa6acc7e00c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 13
   _bangEffect: {fileID: 4914429467570602549}
   _affectedArea: 0.5
 --- !u!1 &9128949068686465679

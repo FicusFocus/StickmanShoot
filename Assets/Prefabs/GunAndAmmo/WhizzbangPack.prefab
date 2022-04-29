@@ -166,6 +166,7 @@ MonoBehaviour:
   _animator: {fileID: 3353184123122470734}
   _destroyClip: {fileID: 7400000, guid: 184b6518f5e24024296843a113ca8327, type: 2}
   _dieEffect: {fileID: 5299507663414948711}
+  _whizzbang: {fileID: 2095352917296703632, guid: 80174d1fc7e071d46a919219aa011c0c, type: 3}
 --- !u!1 &2553856025961244404
 GameObject:
   m_ObjectHideFlags: 0

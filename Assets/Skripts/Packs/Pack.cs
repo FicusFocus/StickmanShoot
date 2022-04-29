@@ -6,16 +6,25 @@ public abstract class Pack : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private AnimationClip _destroyClip;
 
-    public virtual void Destroyed()
+    protected virtual void Destroyed()
     {
-        Destroy(_collider);
+        _collider.enabled = false;
         _animator.Play(_destroyClip.name);
         Destroy(gameObject, _destroyClip.length);
     }
 
-    public void SetNewParrent(Transform newParent)
+    private void SetNewParrent(Transform newParent)
     {
         transform.SetParent(newParent);
         transform.localPosition = Vector3.zero;
+    }
+
+    protected virtual void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Player player))
+        {
+            SetNewParrent(player.transform);
+            Destroyed();
+        }
     }
 }

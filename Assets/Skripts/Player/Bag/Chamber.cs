@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -6,27 +5,23 @@ public class Chamber : MonoBehaviour
 {
     [Range(0, 200), SerializeField] private int _baseBulletsCount;
     [SerializeField] private AmmoPackPlace[] _packPlaces = new AmmoPackPlace[200];
-    [SerializeField] private Gun _gun;
-    [SerializeField] private Ammo _startAmmoType;
-    [SerializeField] private Ammo _granads;
-    [SerializeField] private Ammo _bullets;
     [SerializeField] private TMP_Text _ammoCounter;
+    [SerializeField] private Ammo _startAmmoType;
 
+    private Gun _currentGun;
+    private Ammo _currentAmmoType;
     private int _currentBulletsCount;
     private int _maxBulletsCount => _packPlaces.Length;
 
-    private void OnEnable() => _gun.Shoted += OnGunShooted;
-    private void OnDisable() => _gun.Shoted -= OnGunShooted;
-
     private void Start()
     {
+        _currentAmmoType = _startAmmoType;
         _currentBulletsCount = _baseBulletsCount;
         SetAmmoCounerValue(_currentBulletsCount);
         SetAvtivePackPlace();
-        _gun.SetAmmoType(_startAmmoType);
 
-        if (_currentBulletsCount > 0)
-            _gun.CanShoot(true);
+        if (_currentBulletsCount < 0)
+            StopShooting();
     }
 
     private void SetAvtivePackPlace()
@@ -47,7 +42,7 @@ public class Chamber : MonoBehaviour
         SetAvtivePackPlace();
 
         if (_currentBulletsCount <= 0)
-            _gun.CanShoot(false);
+            _currentGun.CanShoot(false);
     }
 
     private void SetAmmoCounerValue(int value)
@@ -66,15 +61,39 @@ public class Chamber : MonoBehaviour
 
             SetAmmoCounerValue(_currentBulletsCount);
             SetAvtivePackPlace();
-            _gun.CanShoot(true);
+            _currentGun.CanShoot(true);
         }
     }
 
-    public void ChangeAmmoType(Pack pickedPack)
+    public void SetNewAmmoType(Ammo newAmmoType)
     {
-        if (pickedPack.TryGetComponent(out WhizzbangPack whizzbangPack))
-            _gun.SetAmmoType(_granads);
-        else if (pickedPack.TryGetComponent(out BulletsPack bulletsPack))
-            _gun.SetAmmoType(_bullets);
+        _currentAmmoType = newAmmoType;
+        _currentGun.SetAmmoType(_currentAmmoType);
+    }
+
+    public void SetNewGun(Gun newGun)
+    {
+        if (_currentGun == null)
+        {
+            _currentGun = newGun;
+            _currentGun.SetAmmoType(_currentAmmoType);
+            _currentGun.Shoted += OnGunShooted;
+        }
+        else
+        {
+            _currentGun.Shoted -= OnGunShooted;
+            _currentGun.gameObject.SetActive(false);
+            _currentGun = newGun;
+            _currentGun.SetAmmoType(_currentAmmoType);
+            _currentGun.Shoted += OnGunShooted;
+            _currentGun.gameObject.SetActive(true);
+        }
+
+        _currentGun.CanShoot(true);
+    }
+
+    public void StopShooting()
+    {
+        _currentGun.CanShoot(false);
     }
 }

@@ -92,7 +92,7 @@ Material:
     - _LightContribution: 0
     - _LightmapDirectionPitch: 0
     - _LightmapDirectionYaw: 0
-    - _Metallic: 0.26
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OverrideLightmapDir: 0
@@ -117,7 +117,7 @@ Material:
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0.7203598, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.74509805, b: 1, a: 1}
     - _ColorDim: {r: 0.43173724, g: 0.67422175, b: 0.9245283, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
