@@ -18,8 +18,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _mover.SetSideSpeedValue(_sideSpeed);
-        _mover.SetTargetToMove(this);
+        _mover.Init(this, _sideSpeed);
         SetNewGun(_baceGun);
     }
 
@@ -27,38 +26,6 @@ public class Player : MonoBehaviour
     {
         MoveBack();
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        //if (other.TryGetComponent(out Pack pack))  //TODO: хуяня затея, переделать
-        //{
-        //    pack.Destroyed();
-        //    pack.SetNewParrent(transform);
-
-        //    if (pack.TryGetComponent(out AmmoPack ammo))
-        //    {
-        //        _chamber.TakeAmmo(ammo.AmmoInPack);
-        //    }
-        //    else
-        //    {
-                //if (pack.TryGetComponent(out BulletsPack bullets))
-                //{
-                //    _equipmentController.PutOnSniperEquipment();
-                //}
-                //else if (pack.TryGetComponent(out WhizzbangPack whizzbang))
-                //{
-                //    _equipmentController.PutOnGrenadierEquipment();
-                //}
-                //else if (pack.TryGetComponent(out GunLevelOnePack gunLevelUp))
-                //{   //TODO: Разделить GunLevelUpPack по уровням.
-                //    //_currentGun.LevelUp(gunLevelUp.UpFireRate);
-                //    _equipmentController.PutOnGrenadierEquipment();
-                //}
-
-                ////_chamber.ChangeAmmoType(pack);
-            //}
-       // }
-    } //ненужно скорее всего
 
     private void MoveBack()
     {
@@ -81,9 +48,7 @@ public class Player : MonoBehaviour
     public void PutAmmoInChamber(int ammoCount)
     {
         if (ammoCount > 0)
-        {
             _chamber.TakeAmmo(ammoCount);
-        }
     }
 
     public void SetNewGun(Gun gun)

@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(BoxCollider))]
 public class EnemyWaweActivator : MonoBehaviour
 {
     [SerializeField] private List<Enemy> _enemyes;
     [SerializeField] private Player _target;
+
+    public event UnityAction<Enemy> EnemyActivated;
 
     private void Awake()
     {
@@ -25,6 +28,7 @@ public class EnemyWaweActivator : MonoBehaviour
         {
             enemy.Init(_target);
             enemy.gameObject.SetActive(true);
+            EnemyActivated?.Invoke(enemy);
         }
     }
 }

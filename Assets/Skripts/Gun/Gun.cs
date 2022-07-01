@@ -21,7 +21,7 @@ public abstract class Gun : MonoBehaviour
     {
         _timeAfterLastShoot += Time.deltaTime;
 
-        if (_timeAfterLastShoot >= CurrentFireRate && _canSoot)
+        if (_timeAfterLastShoot >= CurrentFireRate && _canSoot && _currentAmmo != null)
         {
             Shoot();
             _timeAfterLastShoot = 0;

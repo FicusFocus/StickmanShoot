@@ -8,10 +8,10 @@ public class MainCameraMover : MonoBehaviour
     private void Update()
     {
         if (_target != null)
-            Setposition();
+            SetPosition();
     }
 
-    private void Setposition()
+    private void SetPosition()
     {
         float xPosition = transform.position.x;
         float yPosition = transform.position.y;

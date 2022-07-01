@@ -6,7 +6,6 @@ class GunLevelUp : Pack
 
     protected override void OnTriggerEnter(Collider other)
     {
-
         if (other.TryGetComponent(out Player player))
         {
             player.SetNewGun(_gun);

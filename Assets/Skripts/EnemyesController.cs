@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyesController : MonoBehaviour
 {
     [SerializeField] private Player _target;
-    [SerializeField] private List<Spawner> _spawners;
+    [SerializeField] private List<EnemyWaweActivator> _wawe;
 
     private List<Enemy> _enemyes = new List<Enemy>();
 
@@ -12,16 +12,16 @@ public class EnemyesController : MonoBehaviour
     {
         _target.Died += OnTargetDied;
 
-        foreach (Spawner spawner in _spawners)
-            spawner.EnemySpawned += OnNewEnemySpawned;
+        foreach (EnemyWaweActivator wawe in _wawe)
+            wawe.EnemyActivated += OnNewEnemySpawned;
     }
 
     private void OnDisable()
     {
         _target.Died -= OnTargetDied;
 
-        foreach (Spawner spawner in _spawners)
-            spawner.EnemySpawned -= OnNewEnemySpawned;
+        foreach (EnemyWaweActivator wawe in _wawe)
+            wawe.EnemyActivated -= OnNewEnemySpawned;
     }
 
     private void OnNewEnemySpawned(Enemy newEnemy)

@@ -31,7 +31,6 @@ public abstract class Ammo : MonoBehaviour
         {
             _doMove = false;
             transform.SetParent(enemy.transform);
-            transform.localPosition = Vector3.zero;
         }
     }
 }

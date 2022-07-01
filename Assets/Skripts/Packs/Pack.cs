@@ -2,22 +2,9 @@
 
 public abstract class Pack : MonoBehaviour
 {
-    [SerializeField] private Collider _collider;
-    [SerializeField] private Animator _animator;
-    [SerializeField] private AnimationClip _destroyClip;
-
-    protected virtual void Destroyed()
-    {
-        _collider.enabled = false;
-        _animator.Play(_destroyClip.name);
-        Destroy(gameObject, _destroyClip.length);
-    }
-
-    private void SetNewParrent(Transform newParent)
-    {
-        transform.SetParent(newParent);
-        transform.localPosition = Vector3.zero;
-    }
+    [SerializeField] protected Collider _collider;
+    [SerializeField] protected Animator _animator;
+    [SerializeField] protected AnimationClip _destroyClip;
 
     protected virtual void OnTriggerEnter(Collider other)
     {
@@ -26,5 +13,18 @@ public abstract class Pack : MonoBehaviour
             SetNewParrent(player.transform);
             Destroyed();
         }
+    }
+
+    protected virtual void Destroyed()
+    {
+        _collider.enabled = false;
+        _animator.Play(_destroyClip.name);
+        Destroy(gameObject, _destroyClip.length);
+    }
+
+    protected void SetNewParrent(Transform newParent)
+    {
+        transform.SetParent(newParent);
+        transform.localPosition = Vector3.zero;
     }
 }

@@ -9,7 +9,6 @@ public class Bullet : Ammo
         {
             enemy.TakeDamage();
             base.OnTriggerEnter(other);
-            Destroy(gameObject);
         }
 
         Destroy(gameObject);

@@ -6,9 +6,7 @@ public class PlayerMover : MonoBehaviour, IBeginDragHandler, IDragHandler
     private Player _traget;
     private float _sideSpeed;
 
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-    }
+    public void OnBeginDrag(PointerEventData eventData) {}
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -21,13 +19,17 @@ public class PlayerMover : MonoBehaviour, IBeginDragHandler, IDragHandler
         }
     }
 
-    public void SetSideSpeedValue(float value)
+    public void Init(Player target, float sideSpeedValue)
     {
-        _sideSpeed = value;
+        SetSideSpeedValue(sideSpeedValue);
+        _traget = target;
     }
 
-    public void SetTargetToMove(Player target)
+    public void SetSideSpeedValue(float value)
     {
-        _traget = target;
+        if (value < 0)
+            return;
+
+        _sideSpeed = value;
     }
 }

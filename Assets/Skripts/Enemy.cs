@@ -5,13 +5,13 @@ using UnityEngine.Events;
 public class Enemy : MonoBehaviour
 {
     [Range(0.1f, 2f), SerializeField] private float _attackDistance = 1f;
-    [SerializeField] private Material _liveEnemyMaterial;
-    [SerializeField] private Material _deadEnemyMaterial;
     [SerializeField] private SkinnedMeshRenderer _materialConteiner;
-    [SerializeField] private Animator _animator;
+    [SerializeField] private Material _deadEnemyMaterial;
+    [SerializeField] private Material _liveEnemyMaterial;
     [SerializeField] private CapsuleCollider _collider;
     [SerializeField] private NavMeshAgent _meshAgent;
     [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private Animator _animator;
     [SerializeField] private float _speed;
 
     private Player _target;
@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
 
     private void CheckDistanceToTarget(Vector3 targetPosition)
     {
-        var enemyPosition = transform.position;
+        Vector3 enemyPosition = transform.position;
 
         if (Vector3.Distance(enemyPosition, targetPosition) < _attackDistance)
             AttackTarget();
@@ -55,11 +55,13 @@ public class Enemy : MonoBehaviour
     public void TakeDamage()
     {
         StopChasing();
+
         _materialConteiner.material = _deadEnemyMaterial;
         _animator.SetTrigger(_die);
         Died?.Invoke(this);
         _meshAgent.enabled = false;
         _collider.enabled = false;
+
         Destroy(gameObject, _dyuingClipLanth);
     }
 

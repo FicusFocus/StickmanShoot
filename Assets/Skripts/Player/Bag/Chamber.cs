@@ -7,20 +7,26 @@ public class Chamber : MonoBehaviour
     [SerializeField] private AmmoPackPlace[] _packPlaces = new AmmoPackPlace[200];
     [SerializeField] private TMP_Text _ammoCounter;
     [SerializeField] private Ammo _startAmmoType;
+    [SerializeField] private Gun _bacegun;
 
-    private Gun _currentGun;
-    private Ammo _currentAmmoType;
-    private int _currentBulletsCount;
     private int _maxBulletsCount => _packPlaces.Length;
+    private int _currentBulletsCount;
+    private Ammo _currentAmmoType;
+    private Gun _currentGun;
 
-    private void Start()
+    private void OnEnable()
     {
         _currentAmmoType = _startAmmoType;
         _currentBulletsCount = _baseBulletsCount;
+        SetNewGun(_bacegun);
+        _currentGun.SetAmmoType(_currentAmmoType);
         SetAmmoCounerValue(_currentBulletsCount);
         SetAvtivePackPlace();
+    }
 
-        if (_currentBulletsCount < 0)
+    private void Start()
+    {
+        if (_currentBulletsCount <= 0)
             StopShooting();
     }
 
@@ -61,6 +67,7 @@ public class Chamber : MonoBehaviour
 
             SetAmmoCounerValue(_currentBulletsCount);
             SetAvtivePackPlace();
+
             _currentGun.CanShoot(true);
         }
     }

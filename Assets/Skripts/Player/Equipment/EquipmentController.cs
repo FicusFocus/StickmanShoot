@@ -13,16 +13,6 @@ public class EquipmentController : MonoBehaviour
         _grenadier.SetEquipmentEnabled(false);
     }
 
-    public void PutOnSniperEquipment()
-    {
-        PutOnNewEquipment(_sniper);
-    }
-
-    public void PutOnGrenadierEquipment()
-    {
-        PutOnNewEquipment(_grenadier);
-    }
-
     private void PutOnNewEquipment(Equipment newEquipment)
     {
         if (_currentEquipment == null)
@@ -38,5 +28,15 @@ public class EquipmentController : MonoBehaviour
         _currentEquipment.SetEquipmentEnabled(false);
         _currentEquipment = newEquipment;
         _currentEquipment.SetEquipmentEnabled(true);
+    }
+
+    public void PutOnSniperEquipment()
+    {
+        PutOnNewEquipment(_sniper);
+    }
+
+    public void PutOnGrenadierEquipment()
+    {
+        PutOnNewEquipment(_grenadier);
     }
 }
