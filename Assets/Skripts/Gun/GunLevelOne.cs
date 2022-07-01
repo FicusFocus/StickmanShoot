@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class GunLevelOne : Gun
 {
+    [SerializeField] private WaitForSeconds _fireRateInsideCycle = new WaitForSeconds(0.05f);
     [SerializeField] private int _shootPerCycle;
 
     private IEnumerator _shootCycle;
@@ -25,12 +26,10 @@ public class GunLevelOne : Gun
 
     private IEnumerator ShootCicle()
     {
-        var fireRateInsideCycle = new WaitForSeconds(0.05f);
-
         for (int i = 0; i < _shootPerCycle; i++)
         {
             base.Shoot();
-            yield return fireRateInsideCycle;
+            yield return _fireRateInsideCycle;
         }
     }
 }

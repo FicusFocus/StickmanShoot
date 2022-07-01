@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _backwardSpeed;
     [SerializeField] private float _sideSpeed;
 
-    private bool _alreadyAttacked;
+    private bool _attacked;
     private string _fall = "Fall";
 
     public event UnityAction Died;
@@ -24,6 +24,9 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if (_attacked)
+            return;
+
         MoveBack();
     }
 
@@ -34,12 +37,12 @@ public class Player : MonoBehaviour
 
     public void Fall()
     {
-        if (_alreadyAttacked == false)
+        if (_attacked == false)
         {
             _animator.SetTrigger(_fall);
             _mover.SetSideSpeedValue(0);
             _backwardSpeed = 0;
-            _alreadyAttacked = true;
+            _attacked = true;
             _chamber.StopShooting();
             Died?.Invoke();
         }
